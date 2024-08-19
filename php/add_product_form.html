@@ -1,0 +1,19 @@
+<form action="add_product.php" method="post" enctype="multipart/form-data">
+    Product Code: <input type="text" name="productCode"><br>
+    Product Name: <input type="text" name="productName"><br>
+    Size & Specification: <input type="text" name="sizeAndSpecification" value="3000 * 900 mm"><br>
+    Thickness: <input type="text" name="thickness" value="20 mm"><br>
+    Types of Finish: <select name="typesOfFinish">
+        <option value="Finish 1">Finish 1</option>
+        <option value="Finish 2">Finish 2</option>
+        <option value="Finish 3">Finish 3</option>
+    </select><br>
+    Colour: <input type="text" name="colour"><br>
+    Usage: <select name="usage[]" multiple>
+        <option value="Option 1">Option 1</option>
+        <option value="Option 2">Option 2</option>
+        <option value="Option 3">Option 3</option>
+    </select><br>
+    Image: <input type="file" name="image"><br>
+    <input type="submit" value="Submit">
+</form>

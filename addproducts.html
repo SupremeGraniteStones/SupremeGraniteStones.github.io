@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Product</title>
+    <!-- Bootstrap CSS for styling and layout -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <style>
+        #imagePreview {
+            max-width: 200px;
+            max-height: 200px;
+        }
+    </style>
+    <div class="container">
+        <h2>Add New Product</h2>
+        <form action="php/add_product.php" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="productCode">Product Code</label>
+                <input type="text" class="form-control" id="productCode" name="productCode" required>
+            </div>
+            <div class="form-group">
+                <label for="productName">Name</label>
+                <input type="text" class="form-control" id="productName" name="productName" required>
+            </div>
+            <div class="form-group">
+                <label for="sizeSpec">Size & Specification</label>
+                <input type="text" class="form-control" id="sizeSpec" name="sizeSpec" value="3000 * 900 mm" readonly>
+            </div>
+            <div class="form-group">
+                <label for="thickness">Thickness</label>
+                <input type="text" class="form-control" id="thickness" name="thickness" value="20 mm" readonly>
+            </div>
+            <div class="form-group">
+                <label for="typesOfFinish">Type of Finish</label>
+                <select class="form-control" id="typesOfFinish" name="typesOfFinish">
+                    <option value="LAPUTRA">LAPUTRA</option>
+                    <option value="LEATHER">LEATHER</option>
+                    <option value="SAND BLAST">SAND BLAST</option>
+                    <option value="HOND">HOND</option>
+                    <option value="FLAMED">FLAMED</option>
+                    <option value="POLISHED">POLISHED</option>
+                    <option value="DIFFERENT TEXTURE AND FINISH">DIFFERENT TEXTURE AND FINISH</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="colour">Colour</label>
+                <input type="text" class="form-control" id="colour" name="colour">
+            </div>
+            <div class="form-group">
+                <label for="usage">Usage</label>
+                <input type="text" class="form-control mb-2" id="selectedUsage" readonly>
+                <select multiple class="form-control" id="usage" name="usage[]" onchange="updateUsageInput();">
+                    <option value="Interior">Interior</option>
+                    <option value="Exterior">Exterior</option>
+                    <option value="Decorative">Decorative</option>
+                    <option value="Flooring">Flooring</option>
+                    <option value="Wall Cladding">Wall Cladding</option>
+                    <option value="Counter Top">Counter Top</option>
+                    <option value="Kitchen Top">Kitchen Top</option>
+                    <option value="Staircase">Staircase</option>
+                </select>
+                
+            </div>
+            <div class="form-group">
+                <label for="productImage">Image</label>
+                <input type="file" class="form-control-file" id="productImage" name="productImage" accept="image/*" onchange="previewImage();">
+                <img id="imagePreview" src="#" alt="Image Preview" style="display: none;">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <!-- Bootstrap JS and jQuery for interactive components -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        function previewImage() {
+            var file = document.getElementById("productImage").files;
+            if (file.length > 0) {
+                var fileReader = new FileReader();
+                
+                fileReader.onload = function (event) {
+                    document.getElementById("imagePreview").setAttribute("src", event.target.result);
+                    document.getElementById("imagePreview").style.display = "block";
+                };
+                
+                fileReader.readAsDataURL(file[0]);
+            }
+        }
+
+        function updateUsageInput() {
+            var select = document.getElementById("usage");
+            var selected = Array.from(select.selectedOptions).map(option => option.text);
+            document.getElementById("selectedUsage").value = selected.join(' , ');
+        }
+    </script>
+</body>
+</html>
