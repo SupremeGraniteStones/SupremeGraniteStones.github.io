@@ -3,6 +3,7 @@
 *{
     font-family: 'Source Sans 3', sans-serif;
 }
+
 html {
     margin: 0;
     padding: 0;
@@ -36,6 +37,8 @@ main{
 
 .logo-text{
     height: min-content;
+    line-height: 22px;
+    margin: 8px 0 0 0;
 }
 
 .logo img {
@@ -44,14 +47,31 @@ main{
     margin-right: 10px;
 }
 
+.logo a{
+    text-decoration: none;
+    color: #F8D578;
+    display: flex;
+    align-items: center;
+}
+
 .navbar{
     padding: 1px;
 }
 
 /* first span */
 .logo span:first-child {
-    font-size: 20px;
-    font-weight: 900;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 12px;
+    font-family: 'Black Ops One', sans-serif;
+}
+
+.logo span:last-child {
+    font-size: 19px;
+    font-weight: 100;
+    font-style: italic;
+    font-family: 'Black Ops One', sans-serif;
 }
 
 .nav-links .nav-link {
@@ -147,7 +167,7 @@ footer {
     position: absolute;
     top: 50%; /* Center vertically */
     transform: translateY(-50%);
-    width: 25%; /* Manageable width for various screen sizes */
+    width: 20%; /* Manageable width for various screen sizes */
     height: auto;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -231,60 +251,60 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px 100px;
-    font-size: 30px;
+    margin: 50px 100px 20px 100px;
+    font-size: 25px;
     position: relative; /* Needed to position the absolutely positioned children */
     height: auto;
+    box-sizing: border-box;
 }
 
 .image-overlap img {
     width: 100%;
+    height: auto;
     max-width: 450px; /* Control max width */
     max-height: 250px; /* Control max height */
-    border-radius: 60px; /* Rounded corners */
+    border-radius: 40px 0 40px 0; /* Creates a rounded corner on the left side */
     box-shadow: -15px 10px 10px rgba(0, 0, 0, 0.5); /* Shadow for added depth */
     position: absolute; /* Position absolutely within the relative container */
     transition: transform 0.3s ease-in-out; /* Smooth transformation */
-}
-
-/* animation scale the image */
-@keyframes scale {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.1); }
-    100% { transform: scale(1); }
+    box-sizing: border-box;
 }
 
 .list{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    line-height: 60px;
+    line-height: 50px;
 }
 
 .image-overlap .img1 {
+    position: absolute;
     left: 0;
     top: 0;
     z-index: 1;
-    animation: scale 6s ease-in-out 2s infinite; /* Animation cycles continuously */
 }
 
 .image-overlap .img2 {
+    position: absolute;
     left: 100px;
     top: 50px;
     z-index: 2;
-    animation: scale 6s ease-in-out 1s infinite; /* Starts 0.5s after img1 */
 }
 
 .image-overlap .img3 {
+    position: absolute;
     left: 200px;
     top: 100px;
     z-index: 3;
-    animation: scale 6s ease-in-out infinite; /* Starts 1s after img1 */
 }
 
 /* hover */
 .image-overlap img:hover {
     transform: scale(1.1); /* Scales the image up by 10% */
+}
+
+.image-overlap .img-text{
+    padding: auto;
 }
 
 #products{
@@ -341,11 +361,22 @@ footer {
 .gallery{
     text-align: center;
     margin-bottom: 40px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.gallery-inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
 }
 
 .gallery-masonry {
-    column-count: 8; /* Number of columns */
+    column-count: 7; /* Number of columns */
     column-gap: 10px;
+    margin: 0 10px 0 10px; /* Adjusted margin */
 }
 
 .gallery-masonry img {
@@ -362,7 +393,7 @@ footer {
     z-index: 10; /* Ensures the scaled image is above others */
     cursor: pointer; /* Changes cursor to indicate clickable */
     position: relative; /* Necessary for z-index to take effect */
-    border: 5px solid #F8D578; /* Adds a gold border around the image */
+    border: 3px solid #F8D578; /* Adds a gold border around the image */
 }
 
 
@@ -386,9 +417,15 @@ footer {
 }
 
 .contact-info {
+    font-weight: 500;
     max-width: 300px;
     margin-right: 50px;
     font-size: 20px;
+}
+
+.contact-info a{
+    text-decoration: none;
+    color: #14253e;
 }
 
 .contact-form {
@@ -425,7 +462,7 @@ footer {
     flex-direction: row;
 }
 
-.social-links a{
+.social-links a {
     background-color: #14253e;
     color: #F8D578;
     border-radius: 10px;
@@ -437,4 +474,9 @@ footer {
     color: #fff;
     border-radius: 10px;
     padding: 2px 8px;
+}
+
+.instagram-media {
+    margin: 0 auto;
+    font-family: 'Source Sans 3', sans-serif;
 }
