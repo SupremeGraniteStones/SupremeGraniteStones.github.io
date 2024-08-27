@@ -6,9 +6,205 @@
     <meta name="description" content="Discover top-quality granite and natural stones for your building needs at SGS - Supreme Granite & Stones in Bangalore. Explore our vast selection perfect for residential and commercial projects.">
     <title>Supreme Granite & Stones | Premier Granite and Natural Stone Supplier in Bangalore</title>
     <link rel="icon" href="img/favicon_io/favicon.ico" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="newstyles.css">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.sgsstyles.in/">
+
+    <!-- Preload critical images -->
+    <link rel="preload" href="img/home.webp" as="image">
+    <link rel="preload" href="img/LOGO.webp" as="image">
+
+    <!-- Inline Critical CSS -->
+    <style>
+        /* Reset */
+        * {
+            font-family: 'Source Sans 3', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Basic Structure */
+        html, body {
+            height: 100%;
+            overflow: hidden;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            background-color: #14253e;
+            color: #F8D578;
+            font-family: 'Source Sans 3', sans-serif;
+        }
+
+        /* Header */
+        header {
+            color: #F8D578;
+            background-color: #14253e;
+            font-weight: bolder;
+        }
+
+        /* Logo */
+        .logo a {
+            text-decoration: none;
+            color: #F8D578;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            max-width: 100px;
+            max-height: 40px;
+            margin-right: 10px;
+        }
+
+        .logo span:first-child {
+            font-size: 25px;
+            font-weight: 400;
+            font-style: italic;
+            letter-spacing: 12px;
+            font-family: 'Black Ops One', sans-serif;
+        }
+
+        .logo span:last-child {
+            font-size: 19px;
+            font-weight: 100;
+            font-style: italic;
+            font-family: 'Black Ops One', sans-serif;
+        }
+
+        /* Navbar */
+        .navbar {
+            padding: 1px;
+        }
+
+        .tabs {
+            display: flex;
+            justify-content: space-between;
+            align-items: stretch;
+            padding: 0px 20px;
+            background-color: #14253e;
+            font-weight: bold;
+            font-size: 20px;
+            letter-spacing: 2px;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            margin-right: 500px;
+            border-bottom: #F8D578 5px solid;
+        }
+
+        .nav-links .nav-link {
+            margin-right: 20px;
+            transition: color 0.3s ease;
+            font-size: 18px;
+        }
+
+        .nav-links .nav-link.active {
+            background-color: #F8D578;
+            color: #14253e;
+            padding: 5px 5px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+
+        .nav-links .nav-link:hover {
+            background-color: #f8d678c2;
+            color: #14253e;
+            padding: 5px 5px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+
+        .contact-actions {
+            display: flex;
+            align-items: flex-start;
+            padding: auto;
+        }
+
+        .btn {
+            border-radius: 30px;
+            margin-right: 10px;
+            background: #F8D578;
+            color: #14253e;
+            padding: 5px 5px;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: #F8D578;
+            color: #14253e;
+        }
+
+        /* Hero Section */
+        .home {
+            position: relative;
+            width: 100%;
+            height: 87vh;
+            overflow: hidden;
+        }
+
+        .home .img {
+            width: 100vw;
+            height: 87vh;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        /* Slider */
+        .slider {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 20%;
+            height: auto;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            left: -100%;
+            opacity: 0;
+            animation: slideIn 1s ease-out 0.5s forwards;
+        }
+
+        @keyframes slideIn {
+            0% {
+                left: -100%;
+                opacity: 0;
+            }
+            100% {
+                left: 0px;
+                opacity: 1;
+            }
+        }
+
+        /* Footer */
+        footer {
+            font-weight: 700;
+            font-size: 16px;
+            letter-spacing: 2px;
+            background-color: #14253e;
+            color: #F8D578;
+        }
+    </style>
+
+    <!-- Load Non-Critical CSS Asynchronously -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"></noscript>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"></noscript>
+
+    <link rel="stylesheet" href="newstyles.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="newstyles.css"></noscript>
 
     <!-- Structured Data -->
     <script type="application/ld+json">
@@ -16,8 +212,8 @@
         "@context": "http://schema.org",
         "@type": "Organization",
         "name": "SGS-Supreme Granite & Stones",
-        "url": "https://sgsstyles.in",
-        "logo": "https://sgsstyles.in/img/LOGO.png",
+        "url": "https://www.sgsstyles.in",
+        "logo": "https://www.sgsstyles.in/img/LOGO.webp",
         "contactPoint": [{
             "@type": "ContactPoint",
             "telephone": "+91-9066-804666",
@@ -42,14 +238,13 @@
     }
     </script>
 </head>
-<body style="display: flex; flex-direction: column; height: 100%;overflow: auto;">
 
+<body style="display: flex; flex-direction: column; height: 100%; overflow: auto;">
     <header>
         <nav class="navbar navbar-expand-lg" role="navigation">
             <div class="container-fluid d-flex justify-content-between align-items-end">
                 <div class="logo d-flex align-items-center">
-                    <!-- add link to this div https://www.sgsstyles.in/ -->
-                    <a href="https://sgsstyles.in/" title="Go to the SGS-Supreme Granite & Stones Home Page" role="link">
+                    <a href="https://www.sgsstyles.in/" title="Go to the SGS-Supreme Granite & Stones Home Page" role="link">
                         <img src="img/LOGO.webp" alt="SGS Logo - Premier Granite and Stone Supplier in Bangalore" style="height: 50px;">
                         <div class="logo-text">
                             <span class="ms-2">Supreme</span><br>
@@ -68,7 +263,7 @@
                         <a class="btn" href="#contact" title="Contact (SGS)Supreme Granite & Stones" role="button">Contact Us</a>
                         <a class="btn" href="#quote" title="Request a quote for our products" role="button">Get Quote</a>
                     </div>
-                 </div>
+                </div>
             </div>
         </nav>
     </header>
@@ -76,7 +271,7 @@
     <main style="flex: 1;overflow-y: auto;">
         <div class="content">
             <section class="home mb-2" id="home" aria-labelledby="home-heading">
-                <img src="img/home.webp" alt="Projected view of Supreme Granite and Stones facility in Bangalore, showcasing the extensive range of granite and natural stone products available." class="img mb-2">
+                <img src="img/home.webp" alt="Projected view of Supreme Granite and Stones facility in Bangalore, showca…" class="img mb-2" loading="lazy">                
                 <div class="slider mt-2" aria-describedby="home-desc">
                     <div class="info">
                         <h4 id="home-heading">Welcome to SGS</h4>
@@ -344,6 +539,7 @@
         </div>
     </footer>
 
+    <!-- JavaScript -->
     <script>
         // active nav link
         const navLinks = document.querySelectorAll('.nav-link');
@@ -361,19 +557,19 @@
         });
 
         function validateForm() {
-        var name = document.getElementById('name').value;
-        var email = document.getElementById('email').value;
-        var message = document.getElementById('message').value;
-        if (name == "" || email == "" || message == "") {
-            alert("All fields must be filled out");
-            return false;
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var message = document.getElement.getElementById('message').value;
+            if (name == "" || email == "" || message == "") {
+                alert("All fields must be filled out");
+                return false;
+            }
+            return true;
         }
-        return true;
-    }
     </script>
     <script src="https://kit.fontawesome.com/8e1f1f0fda.js" crossorigin="anonymous"></script>
     <script async src="//www.instagram.com/embed.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
 </body>
 </html>

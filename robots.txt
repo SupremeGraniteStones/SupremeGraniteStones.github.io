@@ -8,9 +8,12 @@ Disallow: /checkout/
 Disallow: /test/
 Disallow: /submit_form.php  # Prevents the form submission script from being indexed
 Disallow: /newstyles.css  # Prevents the custom stylesheet from being indexed
-Disallow: /img/  # Blocks crawling of the entire img directory
 
-Allow: /img/LOGO.png  # Allows the logo to be indexed
+# Allow all images to be indexed except those in directories explicitly blocked
+Allow: /img/
+
+# If you want to restrict specific image files or subdirectories, use this format
+# Disallow: /img/private/ 
 
 # Allow the rest of the site to be indexed
 Allow: /
