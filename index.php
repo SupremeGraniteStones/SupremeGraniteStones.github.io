@@ -27,7 +27,12 @@
         /* Basic Structure */
         html, body {
             height: 100%;
+            margin: 0;
+            padding: 0;
             overflow: hidden;
+            font-family: 'Source Sans 3', sans-serif;
+            background-color: #14253e;
+            color: #F8D578;
         }
 
         body {
@@ -148,6 +153,7 @@
             overflow: hidden;
         }
 
+        
         .home .img {
             width: 100vw;
             height: 87vh;
@@ -271,7 +277,7 @@
     <main style="flex: 1;overflow-y: auto;">
         <div class="content">
             <section class="home mb-2" id="home" aria-labelledby="home-heading">
-                <img src="img/home.webp" alt="Projected view of Supreme Granite and Stones facility in Bangalore, showcasing our products" class="img mb-2" width="1920" height="1080" loading="eager">                
+                <img src="img/home.webp" alt="Projected view of Supreme Granite and Stones facility in Bangalore, showcasing our products" class="img mb-2" width="1920" height="1080" loading="eager">
                 <div class="slider mt-2" aria-describedby="home-desc">
                     <div class="info">
                         <h4 id="home-heading">Welcome to SGS</h4>
