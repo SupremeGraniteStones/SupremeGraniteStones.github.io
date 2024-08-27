@@ -54,8 +54,8 @@
         }
 
         .logo img {
-            max-width: 100px;
-            max-height: 40px;
+            width: 100px;
+            height: 40px;
             margin-right: 10px;
         }
 
@@ -244,8 +244,8 @@
         <nav class="navbar navbar-expand-lg" role="navigation">
             <div class="container-fluid d-flex justify-content-between align-items-end">
                 <div class="logo d-flex align-items-center">
-                    <a href="https://www.sgsstyles.in/" title="Go to the SGS-Supreme Granite & Stones Home Page" role="link">
-                        <img src="img/LOGO.webp" alt="SGS Logo - Premier Granite and Stone Supplier in Bangalore" style="height: 50px;">
+                    <a href="https://sgsstyles.in/" title="Go to the SGS-Supreme Granite & Stones Home Page" role="link">
+                        <img src="img/LOGO.webp" alt="SGS Logo - Premier Granite and Stone Supplier in Bangalore" width="100" height="40">
                         <div class="logo-text">
                             <span class="ms-2">Supreme</span><br>
                             <span class="ms-2">Granite & Stone</span>
@@ -271,7 +271,7 @@
     <main style="flex: 1;overflow-y: auto;">
         <div class="content">
             <section class="home mb-2" id="home" aria-labelledby="home-heading">
-                <img src="img/home.webp" alt="Projected view of Supreme Granite and Stones facility in Bangalore, showca…" class="img mb-2" loading="lazy">                
+                <img src="img/home.webp" alt="Projected view of Supreme Granite and Stones facility in Bangalore, showcasing our products" class="img mb-2" width="1920" height="1080" loading="eager">                
                 <div class="slider mt-2" aria-describedby="home-desc">
                     <div class="info">
                         <h4 id="home-heading">Welcome to SGS</h4>
@@ -541,7 +541,7 @@
 
     <!-- JavaScript -->
     <script>
-        // active nav link
+        // Active nav link
         const navLinks = document.querySelectorAll('.nav-link');
         navLinks.forEach(link => {
             link.addEventListener('click', () => {
@@ -550,16 +550,10 @@
             });
         });
 
-        var grid = document.querySelector('.grid');
-        var msnry = new Masonry(grid, {
-            itemSelector: '.grid-item',
-            percentPosition: true
-        });
-
         function validateForm() {
             var name = document.getElementById('name').value;
             var email = document.getElementById('email').value;
-            var message = document.getElement.getElementById('message').value;
+            var message = document.getElementById('message').value;
             if (name == "" || email == "" || message == "") {
                 alert("All fields must be filled out");
                 return false;
@@ -567,7 +561,7 @@
             return true;
         }
     </script>
-    <script src="https://kit.fontawesome.com/8e1f1f0fda.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" defer></script>
     <script async src="//www.instagram.com/embed.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
