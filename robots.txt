@@ -1,0 +1,19 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /scripts/
+Disallow: /cgi-bin/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /test/
+Disallow: /submit_form.php  # Prevents the form submission script from being indexed
+Disallow: /newstyles.css  # Prevents the custom stylesheet from being indexed
+Disallow: /img/  # Blocks crawling of the entire img directory
+
+Allow: /img/LOGO.png  # Allows the logo to be indexed
+
+# Allow the rest of the site to be indexed
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.sgsstyles.in/sitemap.xml

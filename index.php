@@ -16,8 +16,8 @@
         "@context": "http://schema.org",
         "@type": "Organization",
         "name": "SGS-Supreme Granite & Stones",
-        "url": "https://www.sgsstyles.in",
-        "logo": "https://www.sgsstyles.in/img/LOGO.png",
+        "url": "https://sgsstyles.in",
+        "logo": "https://sgsstyles.in/img/LOGO.png",
         "contactPoint": [{
             "@type": "ContactPoint",
             "telephone": "+91-9066-804666",
@@ -37,7 +37,7 @@
         }],
         "sameAs": [
             "https://g.page/supreme-granite-and-stones",
-            "https://www.instagram.com/sgs.styles"
+            "https://instagram.com/sgs.styles"
         ]
     }
     </script>
@@ -46,27 +46,29 @@
 
     <header>
         <nav class="navbar navbar-expand-lg" role="navigation">
-            <div class="container-fluid d-flex justify-content-between">
+            <div class="container-fluid d-flex justify-content-between align-items-end">
                 <div class="logo d-flex align-items-center">
                     <!-- add link to this div https://www.sgsstyles.in/ -->
-                    <a href="https://www.sgsstyles.in/" title="Go to the SGS-Supreme Granite & Stones Home Page" role="link">
-                        <img src="img/LOGO.png" alt="SGS Logo - Premier Granite and Stone Supplier in Bangalore" style="height: 50px;">
+                    <a href="https://sgsstyles.in/" title="Go to the SGS-Supreme Granite & Stones Home Page" role="link">
+                        <img src="img/LOGO.webp" alt="SGS Logo - Premier Granite and Stone Supplier in Bangalore" style="height: 50px;">
                         <div class="logo-text">
                             <span class="ms-2">Supreme</span><br>
                             <span class="ms-2">Granite & Stone</span>
                         </div>
                     </a>
                 </div>
-                <div class="nav-links d-none d-lg-flex align-items-center" role="menubar">
-                    <a class="nav-link active" href="#home" title="Go to the SGS Home Page" role="menuitem">Home</a>
-                    <a class="nav-link" href="#about-us" title="Learn more about SGS-Supreme Granite & Stones" role="menuitem">About Us</a>
-                    <a class="nav-link" href="#products" title="Browse our granite and stone products" role="menuitem">Products</a>
-                    <a class="nav-link" href="#gallery" title="View our Granite and Stone gallery" role="menuitem">Gallery</a>
-                </div>
-                <div class="contact-actions" role="toolbar">
-                    <a class="btn" href="#contact" title="Contact (SGS)Supreme Granite & Stones" role="button">Contact Us</a>
-                    <a class="btn" href="#quote" title="Request a quote for our products" role="button">Get Quote</a>
-                </div>
+                <div class="tabs">
+                    <div class="collapse navbar-collapse" id="navbarNav" role="menubar">
+                        <a class="nav-link active" href="#home" title="Go to the SGS Home Page" role="menuitem">Home</a>
+                        <a class="nav-link" href="#about-us" title="Learn more about SGS-Supreme Granite & Stones" role="menuitem">About Us</a>
+                        <a class="nav-link" href="#products" title="Browse our granite and stone products" role="menuitem">Products</a>
+                        <a class="nav-link" href="#gallery" title="View our Granite and Stone gallery" role="menuitem">Gallery</a>
+                    </div>
+                    <div class="contact-actions" role="toolbar">
+                        <a class="btn" href="#contact" title="Contact (SGS)Supreme Granite & Stones" role="button">Contact Us</a>
+                        <a class="btn" href="#quote" title="Request a quote for our products" role="button">Get Quote</a>
+                    </div>
+                 </div>
             </div>
         </nav>
     </header>
@@ -184,9 +186,9 @@
                 </div>
                 <div class="row image-overlap">
                     <div class="col-md-6 triple">
-                        <img src="img/a3.jpg" alt="About Us Image 1 showing our product offerings" class="img-fluid img1" aria-label="Image of granite and natural stone products offered by SGS-Supreme Granite & Stones" title="SGS-Supreme Granite & Stones Product Offerings">
-                        <img src="img/a2.jpg" alt="About Us Image 2 showing our facilities" class="img-fluid img2" aria-label="Image of SGS-Supreme Granite & Stones facilities" title="SGS-Supreme Granite & Stones Product">
-                        <img src="img/a1.png" alt="About Us Image 3 showing our team at work" class="img-fluid img3" aria-label="Image of SGS-Supreme Granite & Stones team at work" title="SGS-Supreme Granite & Stones Product">
+                        <img src="img/a3.webp" alt="About Us Image 1 showing our product offerings" class="img-fluid img1" aria-label="Image of granite and natural stone products offered by SGS-Supreme Granite & Stones" title="SGS-Supreme Granite & Stones Product Offerings">
+                        <img src="img/a2.webp" alt="About Us Image 2 showing our facilities" class="img-fluid img2" aria-label="Image of SGS-Supreme Granite & Stones facilities" title="SGS-Supreme Granite & Stones Product">
+                        <img src="img/a1.webp" alt="About Us Image 3 showing our team at work" class="img-fluid img3" aria-label="Image of SGS-Supreme Granite & Stones team at work" title="SGS-Supreme Granite & Stones Product">
                     </div>
                     <div class="col-md-6 img-text">
                         <h2 class="mt-4 mb-4">Why Choose Us?</h2>
@@ -210,7 +212,7 @@
                     <div class="product-item">
                         <h3>Granite Countertops</h3>
                         <div class="product-inner">
-                            <img src="img/p1.png" alt="Product 1" class="product-image rounded-circle">
+                            <img src="img/p1.webp" alt="Product 1" class="product-image rounded-circle">
                         </div>
                         <h4>Product Id: #12345</h4>
                         <p>High-quality granite countertops that combine durability with beauty.</p>
@@ -219,7 +221,7 @@
                     <div class="product-item">
                         <h3>Granite Flooring</h3>
                         <div class="product-inner">
-                            <img src="img/p2.png" alt="Product 2" class="product-image rounded-circle">
+                            <img src="img/p2.webp" alt="Product 2" class="product-image rounded-circle">
                         </div>
                         <h4>Product Id: #12345</h4>
                         <p>Stylish and durable granite flooring that adds elegance to your space.</p>
@@ -227,7 +229,7 @@
                     <div class="product-item">
                         <h3>Granite Wall Cladding</h3>
                         <div class="product-inner">
-                            <img src="img/p3.png" alt="Product 3" class="product-image rounded-circle">
+                            <img src="img/p3.webp" alt="Product 3" class="product-image rounded-circle">
                         </div>
                         <h4>Product Id: #12345</h4>
                         <p>Enhance the beauty of your walls with our premium granite wall cladding.</p>
@@ -235,7 +237,7 @@
                     <div class="product-item">
                         <h3>Granite Steps</h3>
                         <div class="product-inner">
-                            <img src="img/p4.png" alt="Product 4" class="product-image rounded-circle">
+                            <img src="img/p4.webp" alt="Product 4" class="product-image rounded-circle">
                         </div>
                         <h4>Product Id: #12345</h4>
                         <p>Sturdy and stylish granite steps that add a touch of sophistication to your space.</p>
@@ -243,7 +245,7 @@
                     <div class="product-item">
                         <h3>Granite Slabs</h3>
                         <div class="product-inner">
-                            <img src="img/p5.png" alt="Product 5" class="product-image rounded-circle">
+                            <img src="img/p5.webp" alt="Product 5" class="product-image rounded-circle">
                         </div>
                         <h4>Product Id: #12345</h4>
                         <p>High-quality granite slabs that are perfect for countertops, flooring, and more.</p>

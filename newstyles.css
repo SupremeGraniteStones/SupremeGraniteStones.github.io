@@ -74,6 +74,26 @@ main{
     font-family: 'Black Ops One', sans-serif;
 }
 
+.tabs{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 0px 20px;
+    background-color: #14253e;
+    color: #F8D578;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    margin-right: 500px;
+    border-bottom: #F8D578 5px solid;
+}
+
 .nav-links .nav-link {
     margin-right: 20px;
     transition: color 0.3s ease;
@@ -84,19 +104,22 @@ main{
     background-color: #F8D578;
     color: #14253e;
     padding: 5px 5px;
-    border-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 .nav-links .nav-link:hover {
     background-color: #f8d678c2;
     color: #14253e;
     padding: 5px 5px;
-    border-radius: 30px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 .contact-actions {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    padding: auto ;
 }
 
 .btn {
@@ -479,4 +502,92 @@ footer {
 .instagram-media {
     margin: 0 auto;
     font-family: 'Source Sans 3', sans-serif;
+}
+
+/* Responsive design */
+@media screen and (max-width: 425px) {
+    .logo span:first-child {
+        font-size: 18px;
+        letter-spacing: 5px;
+    }
+
+    .logo span:last-child {
+        font-size: 12px;
+    }
+
+    .navbar {
+        padding: 0 10px;
+    }
+
+    .nav-links .nav-link {
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+    .btn {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .slider {
+        width: 80%; /* Increase width for mobile view */
+        padding: 10px;
+        top: 50%; /* Adjust top position for better visibility */
+    }
+
+    .cta .btn{
+        font-size: 16px;
+    }
+
+    .carousel-item {
+        height: 300px; /* Reduced height for smaller screens */
+    }
+
+    .about, .address, .image-overlap, #products, .contact-us {
+        margin: 10px;
+        font-size: 16px;
+    }
+
+    .image-overlap img {
+        max-width: 100%; /* Ensure images fit within smaller screens */
+        max-height: 150px;
+    }
+
+    .products .product-grid {
+        grid-template-columns: 1fr; /* Single column for mobile */
+        gap: 20px;
+    }
+
+    .product-inner {
+        max-width: 100px; /* Smaller size for images */
+    }
+
+    .gallery-masonry {
+        column-count: 2; /* Fewer columns for mobile */
+        column-gap: 5px;
+    }
+
+    .gallery-masonry img {
+        border-radius: 5px;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social-links {
+        flex-direction: column;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .contact-form input, .contact-form textarea {
+        font-size: 14px;
+    }
+
+    .contact-form button {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
 }
