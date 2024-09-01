@@ -8,7 +8,7 @@
     <link rel="icon" href="img/favicon_io/favicon.ico" type="image/x-icon">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://www.sgsstyles.in/">
+    <link rel="canonical" href="https://sgsstyles.in/">
 
     <!-- Preload critical images -->
     <link rel="preload" href="img/home.webp" as="image">
