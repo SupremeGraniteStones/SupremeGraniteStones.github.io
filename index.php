@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Discover top-quality granite and natural stones for your building needs at SGS - Supreme Granite & Stones in Bangalore. Explore our vast selection perfect for residential and commercial projects.">
-    <title>Supreme Granite & Stones | Premier Granite and Natural Stone Supplier in Bangalore</title>
+    <title>Supreme Granite & Stones | Premium Granite and Natural Stone Supplier in Jigani, Bangalore</title>
     <link rel="icon" href="img/favicon_io/favicon.ico" type="image/x-icon">
     
     <!-- Canonical URL -->
@@ -86,7 +86,7 @@
 
         .tabs {
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
             align-items: stretch;
             padding: 0px 20px;
             background-color: #14253e;
@@ -99,7 +99,6 @@
             display: flex;
             justify-content: space-between;
             align-items: flex-end;
-            margin-right: 500px;
             border-bottom: #F8D578 5px solid;
         }
 
@@ -206,7 +205,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" media="print" onload="this.media='all'">
     <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"></noscript>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">    
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"></noscript>
 
     <link rel="stylesheet" href="newstyles.css" media="print" onload="this.media='all'">
@@ -258,17 +257,28 @@
                         </div>
                     </a>
                 </div>
-                <div class="tabs">
-                    <div class="collapse navbar-collapse" id="navbarNav" role="menubar">
-                        <a class="nav-link active" href="#home" title="Go to the SGS Home Page" role="menuitem">Home</a>
-                        <a class="nav-link" href="#about-us" title="Learn more about SGS-Supreme Granite & Stones" role="menuitem">About Us</a>
-                        <a class="nav-link" href="#products" title="Browse our granite and stone products" role="menuitem">Products</a>
-                        <a class="nav-link" href="#gallery" title="View our Granite and Stone gallery" role="menuitem">Gallery</a>
-                    </div>
-                    <div class="contact-actions" role="toolbar">
-                        <a class="btn" href="#contact" title="Contact (SGS)Supreme Granite & Stones" role="button">Contact Us</a>
-                        <a class="btn" href="#quote" title="Request a quote for our products" role="button">Get Quote</a>
-                    </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse tabs" id="navbarNav" role="menubar">
+                    <ul class="navbar-nav mb-2 mb-lg-0 nav-links">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#home" title="Go to the SGS Home Page" role="menuitem">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-us" title="Learn more about SGS-Supreme Granite & Stones" role="menuitem">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#products" title="Browse our granite and stone products" role="menuitem">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery" title="View our Granite and Stone gallery" role="menuitem">Gallery</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-flex contact-actions" role="toolbar">
+                    <a class="btn" href="#contact" title="Contact (SGS)Supreme Granite & Stones" role="button">Contact Us</a>
+                    <a class="btn" href="#quote" title="Request a quote for our products" role="button">Get Quote</a>
                 </div>
             </div>
         </nav>
@@ -357,8 +367,8 @@
                                                 <li><i class="fas fa-home"></i> Residential projects</li>
                                                 <li><i class="fas fa-building"></i> Commercial projects</li>
                                                 <li><i class="fas fa-hotel"></i> Hospitality projects</li>
-                                                <li><i class="fas fa-landmark"></i> Landscaping projects</li>
                                                 <li><i class="fas fa-tree"></i> Outdoor applications</li>
+                                                <li><i class="fas fa-landmark"></i> Landscaping projects</li>
                                                 <li><i class="fas fa-archway"></i> Architectural and Decorative applications</li>
                                             </ul>
                                         </div>
@@ -397,8 +407,8 @@
                             <li><i class="fas fa-thumbs-up"></i> Quality Assurance</li>
                             <li><i class="fas fa-shield-alt"></i> Durability Guarantee</li>
                             <li><i class="fas fa-tags"></i> Competitive Pricing</li>
-                            <li><i class="fas fa-smile"></i> Customer Satisfaction</li>
                             <li><i class="fas fa-clock"></i> Timely Delivery</li>
+                            <li><i class="fas fa-smile"></i> Customer Satisfaction</li>
                             <li><i class="fas fa-leaf"></i> Eco-friendly Practices</li>
                             <li><i class="fas fa-cogs"></i> Best-Processing Tech</li>
                             <li><i class="fas fa-handshake"></i> Reliable Partnerships</li>
@@ -567,8 +577,7 @@
             return true;
         }
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" defer></script>
-    <script async src="//www.instagram.com/embed.js"></script>
+    <script src="https://kit.fontawesome.com/aebadb062a.js" crossorigin="anonymous"></script>    <script async src="//www.instagram.com/embed.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
 </body>

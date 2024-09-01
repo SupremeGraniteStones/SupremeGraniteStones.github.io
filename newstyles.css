@@ -74,9 +74,13 @@ main{
     font-family: 'Black Ops One', sans-serif;
 }
 
+.navbar-toggler{
+    background-color: #F8D578;
+}
+
 .tabs{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: stretch;
     padding: 0px 20px;
     background-color: #14253e;
@@ -86,11 +90,11 @@ main{
     letter-spacing: 2px;
 }
 
+
 .nav-links {
     display: flex;
     justify-content: space-between;
     align-items:flex-end;
-    margin-right: 500px;
     border-bottom: #F8D578 5px solid;
 }
 
@@ -98,6 +102,7 @@ main{
     margin-right: 20px;
     transition: color 0.3s ease;
     font-size: 18px;
+    color: #F8D578;
 }
 
 .nav-links .nav-link.active {
@@ -506,6 +511,27 @@ footer {
 
 /* Responsive design */
 @media screen and (max-width: 425px) {
+    
+    h1{
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 18px;
+    }
+
+    h3{
+        font-size: 16px;
+    }
+
+    h4{
+        font-size: 14px;
+    }
+
+    h5{
+        font-size: 12px;
+    }
+
     .logo span:first-child {
         font-size: 18px;
         letter-spacing: 5px;
@@ -524,19 +550,36 @@ footer {
         margin-right: 10px;
     }
 
+    .home .img {
+        height: 84vh; /* Reduced height for smaller screens */
+    }
+
+    .about{
+        padding-top: 10px;
+    }
+    
+
+    .nav-links {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: #F8D578 5px solid;
+    }    
+
     .btn {
         padding: 5px 10px;
         font-size: 12px;
     }
 
     .slider {
-        width: 80%; /* Increase width for mobile view */
+        width: 50%; /* Increase width for mobile view */
         padding: 10px;
         top: 50%; /* Adjust top position for better visibility */
     }
 
     .cta .btn{
-        font-size: 16px;
+        font-size: 14px;
+        padding: 8px 10px;
     }
 
     .carousel-item {
@@ -549,8 +592,29 @@ footer {
     }
 
     .image-overlap img {
-        max-width: 100%; /* Ensure images fit within smaller screens */
-        max-height: 150px;
+        width: 100%; /* Ensure images fit within smaller screens */
+        max-width: 210px;
+        max-height: 110px;
+    }
+
+    .image-overlap .img1 {
+        left: 20%;
+        top: 10px;
+    }
+
+    .image-overlap .img2 {
+        left: 25%;
+        top: 35px;
+    }
+
+    .image-overlap .img3 {
+        left: 30%;
+        top: 60px;
+    }
+
+    .image-overlap .img-text {
+        margin-top: 160px;
+        padding: 10px;
     }
 
     .products .product-grid {
@@ -589,5 +653,15 @@ footer {
     .contact-form button {
         padding: 8px 10px;
         font-size: 14px;
+    }
+
+    .list{
+        line-height: normal;
+        column-gap: 20px;
+        text-align: left;
+    }
+
+    .address{
+        padding: 0 20px;
     }
 }
