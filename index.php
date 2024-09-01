@@ -249,7 +249,7 @@
         <nav class="navbar navbar-expand-lg" role="navigation">
             <div class="container-fluid d-flex justify-content-between align-items-end">
                 <div class="logo d-flex align-items-center">
-                    <a href="https://sgsstyles.in/" title="Go to the SGS-Supreme Granite & Stones Home Page" role="link">
+                    <a href="https://www.sgsstyles.in/" title="Go to the SGS-Supreme Granite & Stones Home Page" role="link">
                         <img src="img/LOGO.webp" alt="SGS Logo - Premier Granite and Stone Supplier in Bangalore" width="100" height="40">
                         <div class="logo-text">
                             <span class="ms-2">Supreme</span><br>
