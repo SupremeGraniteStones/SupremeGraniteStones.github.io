@@ -6,7 +6,7 @@
     <meta name="description" content="Discover top-quality granite and natural stones for your building needs at SGS - Supreme Granite & Stones in Bangalore. Explore our vast selection perfect for residential and commercial projects.">
     <title>Supreme Granite & Stones | Premium Granite and Natural Stone Supplier in Jigani, Bangalore</title>
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-    
+
     <!-- Canonical URL -->
     <link rel="canonical" href="https://www.sgsstyles.in/">
 
@@ -152,7 +152,6 @@
             overflow: hidden;
         }
 
-        
         .home .img {
             width: 100vw;
             height: 87vh;
@@ -211,6 +210,7 @@
     <link rel="stylesheet" href="basestyles.css" media="print" onload="this.media='all'">
     <noscript><link rel="stylesheet" href="basestyles.css"></noscript>
 
+    <!-- Structured Data -->
     <script type="application/ld+json">
     {
         "@context": "http://schema.org",
@@ -270,11 +270,11 @@
 </head>
 
 <body style="display: flex; flex-direction: column; height: 100%; overflow: auto;">
-    <header>
-        <nav class="navbar navbar-expand-lg" role="navigation">
+    <header role="banner">
+        <nav class="navbar navbar-expand-lg" role="navigation" aria-label="Primary Navigation">
             <div class="container-fluid d-flex justify-content-between align-items-end">
                 <div class="logo d-flex align-items-center">
-                    <a href="https://www.sgsstyles.in/" title="Go to the SGS-Supreme Granite & Stones Home Page" role="link">
+                    <a href="https://www.sgsstyles.in/" title="Go to the SGS-Supreme Granite & Stones Home Page">
                         <img src="img/LOGO.webp" alt="SGS Logo - Premier Granite and Stone Supplier in Bangalore" width="100" height="40">
                         <div class="logo-text">
                             <span class="ms-2">Supreme</span><br>
@@ -285,8 +285,8 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse tabs" id="navbarNav" role="menubar">
-                    <ul class="navbar-nav mb-2 mb-lg-0 nav-links">
+                <div class="collapse navbar-collapse tabs" id="navbarNav">
+                    <ul class="navbar-nav mb-2 mb-lg-0 nav-links" role="menubar">
                         <li class="nav-item">
                             <a class="nav-link active" href="#home" title="Go to the SGS Home Page" role="menuitem">Home</a>
                         </li>
@@ -309,44 +309,37 @@
         </nav>
     </header>
 
-    <main style="flex: 1;overflow-y: auto;">
+    <main role="main" style="flex: 1;overflow-y: auto;">
         <div class="content">
+            <!-- Home Section -->
             <section class="home mb-2 reveal reveal-up" id="home" aria-labelledby="home-heading">
-                <img src="img/home.webp" 
-                    alt="Projected view of Supreme Granite and Stones facility in Bangalore, showcasing our products" 
-                    class="img mb-2"
-                    loading="eager" 
-                    fetchpriority="high"> <!-- Preloaded with high priority -->
-
+                <img src="img/home.webp" alt="Projected view of Supreme Granite and Stones facility in Bangalore, showcasing our products" class="img mb-2" loading="eager" fetchpriority="high">
                 <div class="slider mt-2" aria-describedby="home-desc">
                     <div class="info">
-                        <h4 id="home-heading">Welcome to SGS</h4>
+                        <h1 id="home-heading">Welcome to SGS</h1>
                         <div class="wlogo" aria-label="Supreme Granite & Stones logo">
-                            <h1>Supreme</h1>
-                            <h2>Granite & Stone</h2>
+                            <h2>Supreme</h2>
+                            <h3>Granite & Stone</h3>
                         </div>
-                        <h5 id="home-desc">Discover the elegance and durability of premium granite and natural stone tailored for timeless architectures. Serving Bangalore and beyond with excellence and expertise.</h5>
-                        <h3><blockquote><i>
-                            “Crafting your spaces with the strength of nature and the art of design.”
-                        </i></blockquote></h3>
+                        <h4 id="home-desc">Discover the elegance and durability of premium granite and natural stone tailored for timeless architectures. Serving Bangalore and beyond with excellence and expertise.</h4>
+                        <blockquote><i>“Crafting your spaces with the strength of nature and the art of design.”</i></blockquote>
                     </div>
                     <div class="cta" role="navigation" aria-label="Primary Actions for SGS - Supreme Granite & Stones">
                         <a href="https://www.instagram.com/sgs.styles" target="_blank" class="btn" aria-label="Visit the Instagram page of SGS - Supreme Granite & Stones for more updates" title="Visit the Instagram of SGS - Supreme Granite & Stones"><i class="fab fa-instagram"></i></a>
                         <a href="https://wa.me/9066804666?text=Hi%21%21%0ACan%20you%20help%20me%20with%20the%20query%20about%20Granite%3F" target="_blank" rel="noopener noreferrer" class="btn" aria-label="Contact SGS - Supreme Granite & Stones via WhatsApp for immediate assistance" title="Send a message to SGS - Supreme Granite & Stones on WhatsApp"><i class="fab fa-whatsapp"></i></a>
                         <a href="#contact" class="btn" title="Navigate to the contact section of SGS - Supreme Granite & Stones" aria-label="Navigate to the contact section of SGS - Supreme Granite & Stones">Contact Us</a>
                         <a href="tel:9066804666" class="btn" aria-label="Call SGS - Supreme Granite & Stones directly at 9066804666 for quick communication" title="Give SGS - Supreme Granite & Stones a call"><i class="fas fa-phone-alt"></i></a>
-                        <a href="https://www.google.com/maps/place/SUPREME+GRANITE+AND+STONES/@12.7975661,77.6033369,1060m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3bae114e2a9d7a5f:0xb2f1472554c3dd47!8m2!3d12.7975609!4d77.6059118!16s%2Fg%2F11lhcg3zkl?entry=ttu" target="_blank" rel="noopener noreferrer" class="btn" title="View the location of SGS - Supreme Granite & Stones on Google Maps in satellite view" aria-label="View the location of SGS - Supreme Granite & Stones on Google Maps in satellite view">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </a>
+                        <a href="https://www.google.com/maps/place/SUPREME+GRANITE+AND+STONES/@12.7975661,77.6033369,1060m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3bae114e2a9d7a5f:0xb2f1472554c3dd47!8m2!3d12.7975609!4d77.6059118!16s%2Fg%2F11lhcg3zkl?entry=ttu" target="_blank" rel="noopener noreferrer" class="btn" title="View the location of SGS - Supreme Granite & Stones on Google Maps in satellite view" aria-label="View the location of SGS - Supreme Granite & Stones on Google Maps in satellite view"><i class="fas fa-map-marker-alt"></i></a>
                     </div>
                 </div>
             </section>
+            
+            <!-- About Us Section -->
             <section class="about-us mt-4 mb-2 reveal reveal-left" id="about-us" aria-labelledby="about-us-heading">
                 <div class="about" role="region" aria-labelledby="about-us-heading">
                     <div class="row">
                         <div class="col-md-6 px-auto">
                             <div id="aboutUsCarousel" class="carousel slide carousel-container" data-bs-ride="carousel" data-bs-interval="5000" aria-label="Image carousel showcasing our company">
-                                <!-- Indicators -->
                                 <div class="carousel-indicators">
                                     <?php
                                     $directory = 'img/about/';
@@ -361,7 +354,6 @@
                                     ?>
                                 </div>
 
-                                <!-- Wrapper for slides -->
                                 <div class="carousel-inner" title="SGS-Supreme Granite & Stones facilities" aria-label="Image carousel showcasing SGS-Supreme Granite & Stones facilities">
                                     <?php
                                     foreach ($files as $index => $file) {
@@ -384,7 +376,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <h1 id="about-us-heading" class="mb-4">About Us</h1>
+                            <h2 id="about-us-heading" class="mb-4">About Us</h2>
                             <article>
                                 <p>
                                     <strong>Supreme Granite & Stones</strong> is a leading supplier of <strong>premium granite</strong> and <strong>natural stone</strong> in Bangalore. We offer a wide range of products, including <strong>granite</strong> and <strong>stones</strong>. Our products, sourced from the finest quarries across India, are renowned for their <strong>quality</strong>, <strong>durability</strong>, and <strong>beauty</strong>.
@@ -414,6 +406,7 @@
                         </div>
                     </div>
                 </div>
+                
                 <!-- Location Information -->
                 <div class="address d-flex align-items-center" aria-label="Company address with map link">
                     <p class="mb-0">Address: 15 16-1A, 21st Mile Stone, Malle Nalsandra, Jigani, Nallasandra, Karnataka 560083. Phone: 9066804666.</p>
@@ -444,9 +437,11 @@
                     </div>
                 </div>
             </section>
-            <section class="products mt-4 mb-2 reveal reveal-right" id="products">
+
+            <!-- Products Section -->
+            <section class="products mt-4 mb-2 reveal reveal-right" id="products" aria-labelledby="products-heading">
                 <header>
-                    <h1 class="mb-4">Best Sellers</h1>
+                    <h2 id="products-heading" class="mb-4">Best Sellers</h2>
                 </header>
                 <div class="product-grid">
                     <!-- Each product item is a grid item -->
@@ -498,9 +493,11 @@
                     </div>
                 </div>
             </section>
+
+            <!-- Gallery Section -->
             <section class="gallery reveal reveal-up" id="gallery" aria-labelledby="gallery-heading">
                 <header>
-                    <h1 id="gallery-heading">Gallery</h1>
+                    <h2 id="gallery-heading">Gallery</h2>
                 </header>
                 <div class="gallery-inner">
                     <div class="insta">
@@ -514,33 +511,31 @@
                     </div>
                     <div class="gallery-masonry" aria-label="Masonry grid showcasing images of SGS-Supreme Granite & Stones products and work">
                         <?php
-                        $directory = 'img/gallery/'; // Path to the directory containing images
-                        $allowed_types = array('png', 'jpg', 'jpeg', 'gif', 'webp'); // Allowed file extensions
+                        $directory = 'img/gallery/';
+                        $allowed_types = array('png', 'jpg', 'jpeg', 'gif', 'webp');
                         $file_parts = array();
                         $ext = '';
                         $title = '';
                         $i = 0;
 
-                        // Open directory
                         $dir_handle = @opendir($directory) or die("There is an error with your image directory!");
 
-                        // Loop over all of the files in the folder
                         while ($file = readdir($dir_handle)) {
-                            if ($file == '.' || $file == '..') continue; // Ignore linking directories
+                            if ($file == '.' || $file == '..') continue;
 
-                            $file_parts = explode('.', $file); // Split the file name into an array using the dot
-                            $ext = strtolower(array_pop($file_parts)); // Get the last element which is the file extension
+                            $file_parts = explode('.', $file);
+                            $ext = strtolower(array_pop($file_parts));
 
-                            if (in_array($ext, $allowed_types)) { // Check the file extension
+                            if (in_array($ext, $allowed_types)) {
                                 echo "<figure class='grid-item m-0'>";
-                                echo "<img src='{$directory}{$file}' alt='Gallery Image {$i} showcasing our granite and stone products' aria-label='Image of granite and stone products' loading='lazy'>"; // Display image with lazy loading
-                                echo "<figcaption class='visually-hidden'>Image {$i} - Granite and Stone Products</figcaption>"; // Hidden figcaption for SEO
+                                echo "<img src='{$directory}{$file}' alt='Gallery Image {$i} showcasing our granite and stone products' aria-label='Image of granite and stone products' loading='lazy'>";
+                                echo "<figcaption class='visually-hidden'>Image {$i} - Granite and Stone Products</figcaption>";
                                 echo "</figure>";
                                 $i++;
                             }
                         }
 
-                        closedir($dir_handle); // Close the directory handle
+                        closedir($dir_handle);
                         ?>
                     </div>
                     <div class="insta">
@@ -554,15 +549,16 @@
                     </div>
                 </div>
             </section>
-            <!-- contact us -->
+
+            <!-- Contact Us Section -->
             <section class="contact-us reveal reveal-left" id="contact" aria-labelledby="contact-heading">
                 <div class="container">
                     <header style="background-color: transparent;">
-                        <h1 id="contact-heading" style="color: #14253e;">Contact Us</h1>
+                        <h2 id="contact-heading" style="color: #14253e;">Contact Us</h2>
                     </header>
                     <div class="contact-container">
                         <div class="contact-info">
-                            <h2>Our Office</h2>
+                            <h3>Our Office</h3>
                             <h5><b>SGS-Supreme Granite & Stones</b></h5>
                             <p>15 16-1A, 21st Mile Stone, Malle Nalsandra, Jigani, Nallasandra, Karnataka 560083</p>
                             <p>Phone: <a href="tel:9066804666" aria-label="Call SGS-Supreme Granite & Stones" title="Call SGS-Supreme Granite & Stones for inquiries">9066804666</a></p>
@@ -631,12 +627,11 @@
     <!-- JavaScript -->
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            // Optimize IntersectionObserver for revealing sections
             const revealSection = (entries, observer) => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
                         entry.target.classList.add('visible');
-                        observer.unobserve(entry.target); // Stop observing once revealed
+                        observer.unobserve(entry.target);
                     }
                 });
             };
@@ -648,12 +643,10 @@
 
             document.querySelectorAll('.reveal').forEach(section => sectionObserver.observe(section));
 
-            // Profile hover effect
             const profile = document.querySelector('.credits');
             profile.addEventListener('mouseenter', () => profile.classList.add('active'));
             profile.addEventListener('mouseleave', () => profile.classList.remove('active'));
 
-            // Active nav link
             document.querySelectorAll('.nav-link').forEach(link => {
                 link.addEventListener('click', () => {
                     document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
@@ -661,7 +654,6 @@
                 });
             });
 
-            // Validate form before submission
             const validateForm = () => {
                 const name = document.getElementById('name').value;
                 const email = document.getElementById('email').value;
