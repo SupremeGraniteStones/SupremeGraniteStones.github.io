@@ -7,7 +7,7 @@ Disallow: /cart/
 Disallow: /checkout/
 Disallow: /test/
 Disallow: /submit_form.php  # Prevents the form submission script from being indexed
-Disallow: /newstyles.css  # Prevents the custom stylesheet from being indexed
+Disallow: /basestyles.css  # Prevents the custom stylesheet from being indexed
 
 # Allow all images to be indexed except those in directories explicitly blocked
 Allow: /img/

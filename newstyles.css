@@ -509,6 +509,168 @@ footer {
     font-family: 'Source Sans 3', sans-serif;
 }
 
+.credits img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.credits a {
+    text-decoration: none;
+    color: #F8D578;
+    display: flex;
+    flex-direction: row;
+    position: relative; /* Ensure relative positioning for the profile to appear behind */
+    overflow: hidden; /* Clip any overflowing content */
+    z-index: 5; /* Higher z-index to appear above the profile */
+}
+
+.credits {
+    margin-left: 20px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    position: relative; /* Position relative for absolute positioning of profile */
+    z-index: 5; /* Higher z-index to appear above the profile */
+    background-color: #14253e ;
+}
+
+.profile {
+    position: absolute;
+    top: 50%;
+    left: 40%; /* Align with VJ */
+    transform: translateX(-100%) translateY(-50%); /* Start hidden and centered vertically */
+    padding: 10px;
+    color: #14253e;
+    border-radius: 8px;
+    width: 40%; /* Adjust width as needed */
+    opacity: 0;
+    visibility: hidden;
+    transition: transform 0.8s ease, opacity 0.7s ease; /* Smooth transition */
+    text-align: center;
+    z-index: 4; /* Lower z-index to appear behind the credits */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.profile-pic {
+    background-color:#14253e;
+    color: #F8D578;
+    z-index: 5; /* Higher z-index to appear above the profile */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile .social-links a {
+    background-color: #14253e;
+    color: #F8D578;
+    border-radius: 10px;
+    padding: 2px 8px;
+    transform: rotate(50deg); /* Start with a 45-degree rotation */
+    transition: transform 0.2s ease 1s; /* Smooth transition for rotation */
+}
+
+.profile .social-links a:hover {
+    background-color: #F8D578;
+    color: #14253e;
+    border-radius: 10px;
+    padding: 2px 8px;
+}
+
+.credits:hover .profile {
+    visibility: visible; /* Make it visible */
+    transform: translateX(-30%) translateY(-50%); /* Slide from behind the "VJ" to the right */
+    opacity: 1; /* Makes it visible */
+    transition-delay: 0.2s; /* Slight delay for a smooth effect */
+    z-index: 3; /* Higher z-index to appear above the credits */
+}
+
+.credits:hover .social-links a {
+    transform: rotate(0deg); /* Rotate back to normal position after slide-in */
+    transition-delay: 0.8s; /* Delay rotation until the slide-in is complete */
+}
+
+.credits:not(:hover) .social-links a {
+    transform: rotate(50deg); /* Rotate back to 50 degrees on hover out */
+    transition: transform 0.8s ease; /* Smooth transition for rotation on hover out */
+}
+
+.cusfooter {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    white-space: nowrap;
+    background-color: #14253e;
+}
+
+.cusfooter a {
+    color: #F8D578;
+    margin: 0 10px;
+}
+
+.cusfooter:hover {
+    color: #F8D578;
+}
+
+/* Reveal Effect for Sections */
+.reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1.5s ease-out, transform 1.5s ease-out; /* Adjust duration for slower effect */
+}
+
+.reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.reveal-left, .reveal-right, .reveal-up {
+    opacity: 0;
+    transition: opacity 1.5s ease-out, transform 1.5s ease-out; /* Slower transition */
+}
+
+.reveal-left.visible {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.reveal-right.visible {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.reveal-up.visible {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* Default states for directions */
+.reveal-left { transform: translateX(-20px); }
+.reveal-right { transform: translateX(20px); }
+.reveal-up { transform: translateY(20px); }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+    white-space: nowrap; /* Prevents hidden elements from expanding in height */
+}
+
 /* Responsive design */
 @media screen and (max-width: 425px) {
     
@@ -530,6 +692,10 @@ footer {
 
     h5{
         font-size: 12px;
+    }
+
+    html , body{
+        overflow: hidden !important;
     }
 
     .logo span:first-child {
