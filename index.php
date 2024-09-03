@@ -335,7 +335,7 @@
             </section>
             
             <!-- About Us Section -->
-            <section class="about-us mt-4 mb-2 reveal reveal-left" id="about-us" aria-labelledby="about-us-heading">
+            <section class="about-us mt-2 reveal reveal-left" id="about-us" aria-labelledby="about-us-heading">
                 <div class="about" role="region" aria-labelledby="about-us-heading">
                     <div class="row">
                         <div class="col-md-6 px-auto">
@@ -439,7 +439,7 @@
             </section>
 
             <!-- Products Section -->
-            <section class="products mt-4 mb-2 reveal reveal-right" id="products" aria-labelledby="products-heading">
+            <section class="products mt-2 reveal reveal-right" id="products" aria-labelledby="products-heading">
                 <header>
                     <h2 id="products-heading" class="mb-4">Best Sellers</h2>
                 </header>
