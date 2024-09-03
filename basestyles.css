@@ -851,6 +851,9 @@ footer {
 
     .profile .social-links{
         margin: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
 
     .profile .social-links a {
@@ -871,7 +874,7 @@ footer {
 
     .credits:hover .profile {
         transform: translateX(-50%) translateY(-60%);
-        
+        left: auto;
     }
 
     .cusfooter {
