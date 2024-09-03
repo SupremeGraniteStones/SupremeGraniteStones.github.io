@@ -426,9 +426,9 @@
                         <h2 class="mt-4 mb-4">Why Choose Us?</h2>
                         <ul class="list">
                             <li><i class="fas fa-thumbs-up"></i> Quality Assurance</li>
+                            <li><i class="fas fa-clock"></i> Timely Delivery</li>
                             <li><i class="fas fa-shield-alt"></i> Durability Guarantee</li>
                             <li><i class="fas fa-tags"></i> Competitive Pricing</li>
-                            <li><i class="fas fa-clock"></i> Timely Delivery</li>
                             <li><i class="fas fa-smile"></i> Customer Satisfaction</li>
                             <li><i class="fas fa-leaf"></i> Eco-friendly Practices</li>
                             <li><i class="fas fa-cogs"></i> Best-Processing Technology</li>
