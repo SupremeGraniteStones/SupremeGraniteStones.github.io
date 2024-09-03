@@ -431,7 +431,7 @@
                             <li><i class="fas fa-tags"></i> Competitive Pricing</li>
                             <li><i class="fas fa-smile"></i> Customer Satisfaction</li>
                             <li><i class="fas fa-leaf"></i> Eco-friendly Practices</li>
-                            <li><i class="fas fa-cogs"></i> Best-Processing Technology</li>
+                            <li><i class="fas fa-cogs"></i> Best Technology</li>
                             <li><i class="fas fa-handshake"></i> Reliable Partnerships</li>
                         </ul>
                     </div>

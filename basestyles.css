@@ -696,6 +696,7 @@ footer {
     .about, .address, .image-overlap, #products, .contact-us {
         margin: 10px;
         font-size: 16px;
+        padding: 10px;
     }
 
     .image-overlap img {
@@ -726,7 +727,7 @@ footer {
 
     .products .product-grid {
         grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
+        column-gap: 20px;
         width: fit-content;
         margin: 10px;
         font-size: 12px;
