@@ -312,7 +312,7 @@
     <main role="main" style="flex: 1;overflow-y: auto;">
         <div class="content">
             <!-- Home Section -->
-            <section class="home mb-2 reveal reveal-up" id="home" aria-labelledby="home-heading">
+            <section class="home mb-2" id="home" aria-labelledby="home-heading">
                 <img src="img/home.webp" alt="Projected view of Supreme Granite and Stones facility in Bangalore, showcasing our products" class="img mb-2" loading="eager" fetchpriority="high">
                 <div class="slider mt-2" aria-describedby="home-desc">
                     <div class="info">
