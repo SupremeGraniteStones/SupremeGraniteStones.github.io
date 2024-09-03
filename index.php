@@ -501,7 +501,7 @@
                 </header>
                 <div class="gallery-inner">
                     <div class="insta">
-                        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C-cAf15RklS/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" aria-label="Instagram post showcasing SGS-Supreme Granite & Stones work">
+                        <blockquote class="instagram-media" width="100px" data-instgrm-permalink="https://www.instagram.com/reel/C-cAf15RklS/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" aria-label="Instagram post showcasing SGS-Supreme Granite & Stones work">
                             <div>
                                 <a href="https://www.instagram.com/reel/C-cAf15RklS/?utm_source=ig_embed&amp;utm_campaign=loading" target="_blank" rel="noopener noreferrer" aria-label="View this post on Instagram by SGS-Supreme Granite & Stones">
                                     View this post on Instagram
@@ -578,7 +578,7 @@
                         </div>
                         
                         <!-- Embedded Google Map -->
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.7063848931934!2d77.6059118!3d12.797560899999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae114e2a9d7a5f%3A0xb2f1472554c3dd47!2sSUPREME%20GRANITE%20AND%20STONES!5e0!3m2!1sen!2sin!4v1723987903701!5m2!1sen!2sin" 
+                        <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.7063848931934!2d77.6059118!3d12.797560899999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae114e2a9d7a5f%3A0xb2f1472554c3dd47!2sSUPREME%20GRANITE%20AND%20STONES!5e0!3m2!1sen!2sin!4v1723987903701!5m2!1sen!2sin" 
                             width="450" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" aria-label="Google Maps location of SGS-Supreme Granite & Stones" title="Find our location on Google Maps"></iframe>
                         
                         <!-- Contact Form -->
@@ -598,7 +598,7 @@
         </div>
     </main>
 
-    <footer class="footer py-3">
+    <footer class="footer py-3 one">
         <div class="container text-center cusfooter">
             <!-- profile pic of the website developer -->
             <div class="credits">
@@ -620,7 +620,9 @@
                     </a>
                 </div>
             </div>
-            &copy; 2024 <a href="https://vivek7755.github.io/" target="_blank" rel="noopener noreferrer" aria-label="Visit the developer's website" title="Visit Developer's Website"> Vivek Jain </a>. All Rights Reserved
+            <div class="footer-info">
+                &copy; 2024 <a href="https://vivek7755.github.io/" target="_blank" rel="noopener noreferrer" aria-label="Visit the developer's website" title="Visit Developer's Website"> Vivek Jain </a>. All Rights Reserved
+            </div>
         </div>
     </footer>
 
