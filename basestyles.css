@@ -744,7 +744,7 @@ footer {
     }
 
     .products .product-image {
-        max-width: 100px;
+        min-width: 150px;
     }
 
     .gallery{
