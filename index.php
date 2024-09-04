@@ -282,10 +282,10 @@
                         </div>
                     </a>
                 </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" role="button">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse tabs" id="navbarNav">
+                <div class="collapse navbar-collapse tabs" id="navbarSupportedContent">
                     <ul class="navbar-nav mb-2 mb-lg-0 nav-links" role="menubar">
                         <li class="nav-item">
                             <a class="nav-link active" href="#home" title="Go to the SGS Home Page" role="menuitem">Home</a>
@@ -495,9 +495,9 @@
             </section>
 
             <!-- Gallery Section -->
-            <section class="gallery reveal reveal-up" id="gallery" aria-labelledby="gallery-heading">
+            <section class="gallery mt-2 reveal reveal-up" id="gallery" aria-labelledby="gallery-heading">
                 <header>
-                    <h2 id="gallery-heading">Gallery</h2>
+                    <h2 id="gallery-heading" class="mb-4">Gallery</h2>
                 </header>
                 <div class="gallery-inner">
                     <div class="insta">
@@ -579,7 +579,7 @@
                         
                         <!-- Embedded Google Map -->
                         <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.7063848931934!2d77.6059118!3d12.797560899999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae114e2a9d7a5f%3A0xb2f1472554c3dd47!2sSUPREME%20GRANITE%20AND%20STONES!5e0!3m2!1sen!2sin!4v1723987903701!5m2!1sen!2sin" 
-                            width="450" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" aria-label="Google Maps location of SGS-Supreme Granite & Stones" title="Find our location on Google Maps"></iframe>
+                            width="450" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" aria-label="Google Maps location of SGS-Supreme Granite & Stones" title="Find our SGS location on Google Maps"></iframe>
                         
                         <!-- Contact Form -->
                         <form class="contact-form" action="submit_form.php" method="POST" onsubmit="return validateForm()" aria-label="Contact form to send a message to SGS-Supreme Granite & Stones">
@@ -628,6 +628,14 @@
 
     <!-- JavaScript -->
     <script>
+
+        // collapse the navbar when a link is clicked after opening the menu
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                document.querySelector('.navbar-collapse').classList.remove('show');
+            });
+        });
+
         document.addEventListener('DOMContentLoaded', () => {
             const revealSection = (entries, observer) => {
                 entries.forEach(entry => {

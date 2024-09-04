@@ -26,6 +26,7 @@ body {
     color: var(--secondary-color);
 }
 
+
 header {
     color: var(--secondary-color);
     background-color: var(--primary-color);
@@ -106,7 +107,7 @@ header {
     color: var(--secondary-color);
 }
 
-.nav-links .nav-link.active, .nav-links .nav-link:hover {
+.nav-links .nav-link.active {
     background-color: var(--secondary-color);
     color: var(--primary-color);
     padding: 5px;
@@ -364,6 +365,7 @@ footer {
 
 .gallery {
     text-align: center;
+    padding-top: 20px;
     margin-bottom: 40px;
     margin-right: 100px;
     margin-left: 100px;
