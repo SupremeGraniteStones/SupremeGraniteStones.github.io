@@ -265,6 +265,57 @@
             "@type": "ContactAction",
             "target": "https://www.sgsstyles.in/#contact",
             "query-input": "required"
+        },
+        {
+        "@context": "http://schema.org",
+        "@type": "Product",
+        "name": "LAKA RED Granite",
+        "image": "https://www.sgsstyles.in/img/p1.webp",
+        "description": "Vibrant Laka Red granite, perfect for countertops and accent walls, available in polished, honed, and flamed finishes.",
+        "sku": "G-48-LREP",
+        "brand": {
+            "@type": "Brand",
+            "name": "SGS-Supreme Granite & Stones"
+        },
+        "@context": "http://schema.org",
+        "@type": "Product",
+        "name": "JAISALMER YELLOW Granite",
+        "image": "https://www.sgsstyles.in/img/p2.webp",
+        "description": "Warm and luxurious Jaisalmer Yellow granite, ideal for interiors, available in polished, honed, and flamed finishes.",
+        "sku": "G-49-JYEP",
+        "brand": {
+            "@type": "Brand",
+            "name": "SGS-Supreme Granite & Stones"
+        },
+        "@context": "http://schema.org",
+        "@type": "Product",
+        "name": "JET-BLACK Granite",
+        "image": "https://www.sgsstyles.in/img/p3.webp",
+        "description": "Sleek Jet-Black granite, perfect for contemporary interiors, available in polished, honed, and flamed finishes.",
+        "sku": "G-50-JBLP",
+        "brand": {
+            "@type": "Brand",
+            "name": "SGS-Supreme Granite & Stones"
+        },
+        "@context": "http://schema.org",
+        "@type": "Product",
+        "name": "EMERALD PEARL Granite",
+        "image": "https://www.sgsstyles.in/img/p4.webp",
+        "description": "Unique, shimmering Emerald Pearl granite, ideal for kitchens and bathrooms, available in polished, honed, and flamed finishes.",
+        "sku": "G-51-EPEP",
+        "brand": {
+            "@type": "Brand",
+            "name": "SGS-Supreme Granite & Stones"
+        },
+        "@context": "http://schema.org",
+        "@type": "Product",
+        "name": "BLUE PEARL Granite",
+        "image": "https://www.sgsstyles.in/img/p5.webp",
+        "description": "Stunning Blue Pearl granite, ideal for countertops and floors, available in polished, honed, and flamed finishes.",
+        "sku": "G-52-BPEP",
+        "brand": {
+            "@type": "Brand",
+            "name": "SGS-Supreme Granite & Stones"
         }
     }
     </script>
@@ -442,59 +493,57 @@
             <!-- Products Section -->
             <section class="products mt-2 reveal reveal-right" id="products" aria-labelledby="products-heading">
                 <header>
-                    <h2 id="products-heading" class="mb-4">Best Sellers</h2>
+                    <h2 id="products-heading">Best Sellers</h2>
+                    <h3 class="mb-4">Granite : Available in All Finishes - Polished, Honed, Flamed</h3>
                 </header>
                 <div class="product-grid">
-                    <!-- Each product item is a grid item -->
                     <div class="product-item">
-                        <h3>Granite Countertops</h3>
+                        <h3>LAKA RED</h3>
                         <div class="product-inner">
-                            <img src="img/p1.webp" alt="Granite Countertops - Durable and Beautiful" class="product-image rounded-circle" loading="lazy">
-                            <figcaption class="visually-hidden">High-quality granite countertops that combine durability with beauty. Available in various colors and finishes.</figcaption>
+                            <img src="img/p1.webp" alt="LAKA RED Granite" class="product-image rounded-circle" loading="lazy">
+                            <figcaption class="visually-hidden">Laka Red granite, perfect for countertops and accent walls, available in polished, honed, and flamed finishes.</figcaption>
                         </div>
-                        <h4>Product Id: #12345</h4>
-                        <p>High-quality granite countertops that combine durability with beauty.</p>
-                    </div>
-                    <!-- Repeat for other products -->
-                    <div class="product-item">
-                        <h3>Granite Flooring</h3>
-                        <div class="product-inner">
-                            <img src="img/p2.webp" alt="Granite Flooring - Stylish and Durable" class="product-image rounded-circle" loading="lazy">
-                            <figcaption class="visually-hidden">Stylish and durable granite flooring that adds elegance to any space. Perfect for both residential and commercial use.</figcaption>
-                        </div>
-                        <h4>Product Id: #12346</h4>
-                        <p>Stylish and durable granite flooring that adds elegance to your space.</p>
+                        <h4 title="Product Id">#G-48-LREP</h4>
+                        <p>Vibrant granite for countertops and walls, available in multiple finishes.</p>
                     </div>
                     <div class="product-item">
-                        <h3>Granite Wall Cladding</h3>
+                        <h3>JAISALMER YELLOW</h3>
                         <div class="product-inner">
-                            <img src="img/p3.webp" alt="Granite Wall Cladding - Enhance Your Walls" class="product-image rounded-circle" loading="lazy">
-                            <figcaption class="visually-hidden">Enhance the beauty of your walls with our premium granite wall cladding, offering natural texture and long-lasting protection.</figcaption>
+                            <img src="img/p2.webp" alt="JAISALMER YELLOW Granite" class="product-image rounded-circle" loading="lazy">
+                            <figcaption class="visually-hidden">Jaisalmer Yellow granite, ideal for interiors, available in polished, honed, and flamed finishes.</figcaption>
                         </div>
-                        <h4>Product Id: #12347</h4>
-                        <p>Enhance the beauty of your walls with our premium granite wall cladding.</p>
+                        <h4 title="Product Id">#G-49-JYEP</h4>
+                        <p>Luxurious granite for interiors, available in multiple finishes.</p>
                     </div>
                     <div class="product-item">
-                        <h3>Granite Steps</h3>
+                        <h3>JET-BLACK</h3>
                         <div class="product-inner">
-                            <img src="img/p4.webp" alt="Granite Steps - Durable and Elegant" class="product-image rounded-circle" loading="lazy">
-                            <figcaption class="visually-hidden">Durable and elegant granite steps that add a touch of sophistication to your home or commercial space.</figcaption>
+                            <img src="img/p3.webp" alt="JET-BLACK Granite" class="product-image rounded-circle" loading="lazy">
+                            <figcaption class="visually-hidden">Jet-Black granite, ideal for contemporary interiors, available in polished, honed, and flamed finishes.</figcaption>
                         </div>
-                        <h4>Product Id: #12348</h4>
-                        <p>Durable and elegant granite steps that add a touch of sophistication.</p>
+                        <h4 title="Product Id">#G-50-JBLP</h4>
+                        <p>Sleek granite for modern spaces, available in multiple finishes.</p>
                     </div>
                     <div class="product-item">
-                        <h3>Granite Slabs</h3>
+                        <h3>EMERALD PEARL</h3>
                         <div class="product-inner">
-                            <img src="img/p5.webp" alt="Granite Slabs - Premium Quality" class="product-image rounded-circle" loading="lazy">
-                            <figcaption class="visually-hidden">Premium quality granite slabs that are perfect for countertops, flooring, and other applications. Available in various colors and finishes.</figcaption>
+                            <img src="img/p4.webp" alt="EMERALD PEARL Granite" class="product-image rounded-circle" loading="lazy">
+                            <figcaption class="visually-hidden">Emerald Pearl granite, ideal for kitchens and bathrooms, available in polished, honed, and flamed finishes.</figcaption>
                         </div>
-                        <h4>Product Id: #12349</h4>
-                        <p>Premium quality granite slabs that are perfect for countertops, flooring, and other applications.</p>
+                        <h4 title="Product Id">#G-51-EPEP</h4>
+                        <p>Shimmering granite for kitchens and baths, available in multiple finishes.</p>
+                    </div>
+                    <div class="product-item">
+                        <h3>BLUE PEARL</h3>
+                        <div class="product-inner">
+                            <img src="img/p5.webp" alt="BLUE PEARL Granite" class="product-image rounded-circle" loading="lazy">
+                            <figcaption class="visually-hidden">Blue Pearl granite, ideal for countertops and floors, available in polished, honed, and flamed finishes.</figcaption>
+                        </div>
+                        <h4 title="Product Id">#G-52-BPEP</h4>
+                        <p>Stunning granite for countertops and floors, available in multiple finishes.</p>
                     </div>
                 </div>
             </section>
-
             <!-- Gallery Section -->
             <section class="gallery mt-2 reveal reveal-up" id="gallery" aria-labelledby="gallery-heading">
                 <header>
@@ -502,9 +551,9 @@
                 </header>
                 <div class="gallery-inner">
                     <div class="insta">
-                        <blockquote class="instagram-media" width="100px" data-instgrm-permalink="https://www.instagram.com/reel/C-cAf15RklS/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" aria-label="Instagram post showcasing SGS-Supreme Granite & Stones work">
+                        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C_j6mbJSP_u/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" aria-label="Instagram post showcasing SGS-Supreme Granite & Stones work">
                             <div>
-                                <a href="https://www.instagram.com/reel/C-cAf15RklS/?utm_source=ig_embed&amp;utm_campaign=loading" target="_blank" rel="noopener noreferrer" aria-label="View this post on Instagram by SGS-Supreme Granite & Stones">
+                                <a href="https://www.instagram.com/reel/C_j6mbJSP_u/?utm_source=ig_embed&amp;utm_campaign=loading" target="_blank" rel="noopener noreferrer" aria-label="View this post on Instagram by SGS-Supreme Granite & Stones">
                                     View this post on Instagram
                                 </a>
                             </div>
@@ -540,9 +589,9 @@
                         ?>
                     </div>
                     <div class="insta">
-                        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C9z00QvSbxD/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" aria-label="Instagram post showcasing SGS-Supreme Granite & Stones work">
+                        <blockquote class="instagram-media" width="100px" data-instgrm-permalink="https://www.instagram.com/reel/C-cAf15RklS/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" aria-label="Instagram post showcasing SGS-Supreme Granite & Stones work">
                             <div>
-                                <a href="https://www.instagram.com/reel/C9z00QvSbxD/?utm_source=ig_embed&amp;utm_campaign=loading" target="_blank" rel="noopener noreferrer" aria-label="View this post on Instagram by SGS-Supreme Granite & Stones">
+                                <a href="https://www.instagram.com/reel/C-cAf15RklS/?utm_source=ig_embed&amp;utm_campaign=loading" target="_blank" rel="noopener noreferrer" aria-label="View this post on Instagram by SGS-Supreme Granite & Stones">
                                     View this post on Instagram
                                 </a>
                             </div>

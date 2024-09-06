@@ -771,20 +771,16 @@ footer {
         border-radius: 5px;
     }
 
-    /* center the hovered images - how can we do this without using position relative? */
-    .gallery-masonry img:hover{
-        display: flex;
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        max-width: 100px;
-        transform: scale(3.5);
-        
+    /* hover to center of the present image */
+    .gallery-masonry img:hover {
+        pointer-events: none;
+        scale: 1.5;
+        z-index: 10;
+        cursor: pointer;
+        position: relative;
+        border: 3px solid var(--secondary-color);
     }
-
+    
     .contact-us{
         margin: auto;
         width: 90%;
