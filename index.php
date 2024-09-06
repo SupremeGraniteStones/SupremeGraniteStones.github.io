@@ -208,8 +208,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">    
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"></noscript>
 
-    <link rel="stylesheet" href="basestyles.css" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="basestyles.css"></noscript>
+    <link rel="stylesheet" href="sgsstyles.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="sgsstyles.css"></noscript>
 
     <!-- Structured Data -->
     <script type="application/ld+json">
