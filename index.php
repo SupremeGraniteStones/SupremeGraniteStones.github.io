@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Discover top-quality granite and natural stones for your building needs at SGS - Supreme Granite & Stones in Bangalore. Explore our vast selection perfect for residential and commercial projects.">
+    
     <title>Supreme Granite & Stones | Premium Granite and Natural Stone Supplier in Jigani, Bangalore</title>
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 
