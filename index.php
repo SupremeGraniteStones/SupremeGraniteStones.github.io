@@ -632,7 +632,7 @@
                             width="450" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" aria-label="Google Maps location of SGS-Supreme Granite & Stones" title="Find our SGS location on Google Maps"></iframe>
                         
                         <!-- Contact Form -->
-                        <form class="contact-form" action="submit_form.php" method="POST" onsubmit="return validateForm()" aria-label="Contact form to send a message to SGS-Supreme Granite & Stones">
+                        <form class="contact-form" action="mail.php" method="POST" onsubmit="return validateForm()" aria-label="Contact form to send a message to SGS-Supreme Granite & Stones">
                             <h4><b>Send Us a Message</b></h4>
                             <label for="name">Your Name</label>
                             <input type="text" id="name" name="name" placeholder="Your Name" required aria-required="true" aria-label="Enter your name" title="Please enter your full name">
