@@ -12,8 +12,6 @@ Disallow: /basestyles.css  # Prevents the custom stylesheet from being indexed
 # Allow all images to be indexed except those in directories explicitly blocked
 Allow: /img/
 
-# If you want to restrict specific image files or subdirectories, use this format
-# Disallow: /img/private/ 
 
 # Allow the rest of the site to be indexed
 Allow: /

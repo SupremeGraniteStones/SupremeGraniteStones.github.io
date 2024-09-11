@@ -213,112 +213,123 @@
 
     <!-- Structured Data -->
     <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "SGS-Supreme Granite & Stones",
+  "url": "https://www.sgsstyles.in",
+  "logo": "https://www.sgsstyles.in/img/LOGO.webp",
+  "contactPoint": [
     {
-        "@context": "http://schema.org",
-        "@type": "Organization",
-        "name": "SGS-Supreme Granite & Stones",
-        "url": "https://www.sgsstyles.in",
-        "logo": "https://www.sgsstyles.in/img/LOGO.webp",
-        "contactPoint": [{
-            "@type": "ContactPoint",
-            "telephone": "+91-9066-804666",
-            "contactType": "Customer service",
-            "contactOption": "TollFree",
-            "areaServed": "IN",
-            "availableLanguage": ["English", "Hindi", "Kannada"]
-        },{
-            "@type": "ContactPoint",
-            "telephone": "+91-9066-804666",
-            "contactType": "Sales",
-            "contactOption": "TollFree",
-            "areaServed": "IN",
-            "availableLanguage": ["English", "Hindi", "Kannada"]
-        },{
-            "@type": "ContactPoint",
-            "telephone": "+91-9066-804666",
-            "contactType": "Support",
-            "contactOption": "TollFree",
-            "areaServed": "IN",
-            "availableLanguage": ["English", "Hindi", "Kannada"]
-        },{
-            "@type": "ContactPoint",
-            "telephone": "+91-9066-804666",
-            "contactType": "Quotation",
-            "contactOption": "TollFree",
-            "areaServed": "IN",
-            "availableLanguage": ["English", "Hindi", "Kannada"]
-        }],
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "15 16-1A, 21st Mile Stone, Malle Nalsandra, Jigani, Nallasandra",
-            "addressLocality": "Bangalore",
-            "addressRegion": "Karnataka",
-            "postalCode": "560083",
-            "addressCountry": "IN"
-        },
-        "sameAs": [
-            "https://g.page/supreme-granite-and-stones",
-            "https://instagram.com/sgs.styles"
-        ],
-        "openingHours": "Mo,Tu,We,Th,Fr,Sa 09:00-18:00",
-        "potentialAction": {
-            "@type": "ContactAction",
-            "target": "https://www.sgsstyles.in/#contact",
-            "query-input": "required"
-        },
-        {
-        "@context": "http://schema.org",
-        "@type": "Product",
-        "name": "LAKA RED Granite",
-        "image": "https://www.sgsstyles.in/img/p1.webp",
-        "description": "Vibrant Laka Red granite, perfect for countertops and accent walls, available in polished, honed, and flamed finishes.",
-        "sku": "G-48-LREP",
-        "brand": {
-            "@type": "Brand",
-            "name": "SGS-Supreme Granite & Stones"
-        },
-        "@context": "http://schema.org",
-        "@type": "Product",
-        "name": "JAISALMER YELLOW Granite",
-        "image": "https://www.sgsstyles.in/img/p2.webp",
-        "description": "Warm and luxurious Jaisalmer Yellow granite, ideal for interiors, available in polished, honed, and flamed finishes.",
-        "sku": "G-49-JYEP",
-        "brand": {
-            "@type": "Brand",
-            "name": "SGS-Supreme Granite & Stones"
-        },
-        "@context": "http://schema.org",
-        "@type": "Product",
-        "name": "JET-BLACK Granite",
-        "image": "https://www.sgsstyles.in/img/p3.webp",
-        "description": "Sleek Jet-Black granite, perfect for contemporary interiors, available in polished, honed, and flamed finishes.",
-        "sku": "G-50-JBLP",
-        "brand": {
-            "@type": "Brand",
-            "name": "SGS-Supreme Granite & Stones"
-        },
-        "@context": "http://schema.org",
-        "@type": "Product",
-        "name": "EMERALD PEARL Granite",
-        "image": "https://www.sgsstyles.in/img/p4.webp",
-        "description": "Unique, shimmering Emerald Pearl granite, ideal for kitchens and bathrooms, available in polished, honed, and flamed finishes.",
-        "sku": "G-51-EPEP",
-        "brand": {
-            "@type": "Brand",
-            "name": "SGS-Supreme Granite & Stones"
-        },
-        "@context": "http://schema.org",
-        "@type": "Product",
-        "name": "BLUE PEARL Granite",
-        "image": "https://www.sgsstyles.in/img/p5.webp",
-        "description": "Stunning Blue Pearl granite, ideal for countertops and floors, available in polished, honed, and flamed finishes.",
-        "sku": "G-52-BPEP",
-        "brand": {
-            "@type": "Brand",
-            "name": "SGS-Supreme Granite & Stones"
-        }
+      "@type": "ContactPoint",
+      "telephone": "+91-9066-804666",
+      "contactType": "Customer service",
+      "contactOption": "TollFree",
+      "areaServed": "IN",
+      "availableLanguage": ["English", "Hindi", "Kannada"]
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+91-9066-804666",
+      "contactType": "Sales",
+      "contactOption": "TollFree",
+      "areaServed": "IN",
+      "availableLanguage": ["English", "Hindi", "Kannada"]
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+91-9066-804666",
+      "contactType": "Support",
+      "contactOption": "TollFree",
+      "areaServed": "IN",
+      "availableLanguage": ["English", "Hindi", "Kannada"]
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+91-9066-804666",
+      "contactType": "Quotation",
+      "contactOption": "TollFree",
+      "areaServed": "IN",
+      "availableLanguage": ["English", "Hindi", "Kannada"]
     }
-    </script>
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "15 16-1A, 21st Mile Stone, Malle Nalsandra, Jigani, Nallasandra",
+    "addressLocality": "Bangalore",
+    "addressRegion": "Karnataka",
+    "postalCode": "560083",
+    "addressCountry": "IN"
+  },
+  "sameAs": [
+    "https://g.page/supreme-granite-and-stones",
+    "https://instagram.com/sgs.styles"
+  ],
+  "openingHours": "Mo,Tu,We,Th,Fr,Sa 09:00-18:00",
+  "potentialAction": {
+    "@type": "ContactAction",
+    "target": "https://www.sgsstyles.in/#contact",
+    "query-input": "required"
+  },
+  "product": [
+    {
+      "@type": "Product",
+      "name": "LAKA RED Granite",
+      "image": "https://www.sgsstyles.in/img/p1.webp",
+      "description": "Vibrant Laka Red granite, perfect for countertops and accent walls, available in polished, honed, and flamed finishes.",
+      "sku": "G-48-LREP",
+      "brand": {
+        "@type": "Brand",
+        "name": "SGS-Supreme Granite & Stones"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "JAISALMER YELLOW Granite",
+      "image": "https://www.sgsstyles.in/img/p2.webp",
+      "description": "Warm and luxurious Jaisalmer Yellow granite, ideal for interiors, available in polished, honed, and flamed finishes.",
+      "sku": "G-49-JYEP",
+      "brand": {
+        "@type": "Brand",
+        "name": "SGS-Supreme Granite & Stones"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "JET-BLACK Granite",
+      "image": "https://www.sgsstyles.in/img/p3.webp",
+      "description": "Sleek Jet-Black granite, perfect for contemporary interiors, available in polished, honed, and flamed finishes.",
+      "sku": "G-50-JBLP",
+      "brand": {
+        "@type": "Brand",
+        "name": "SGS-Supreme Granite & Stones"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "EMERALD PEARL Granite",
+      "image": "https://www.sgsstyles.in/img/p4.webp",
+      "description": "Unique, shimmering Emerald Pearl granite, ideal for kitchens and bathrooms, available in polished, honed, and flamed finishes.",
+      "sku": "G-51-EPEP",
+      "brand": {
+        "@type": "Brand",
+        "name": "SGS-Supreme Granite & Stones"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "BLUE PEARL Granite",
+      "image": "https://www.sgsstyles.in/img/p5.webp",
+      "description": "Stunning Blue Pearl granite, ideal for countertops and floors, available in polished, honed, and flamed finishes.",
+      "sku": "G-52-BPEP",
+      "brand": {
+        "@type": "Brand",
+        "name": "SGS-Supreme Granite & Stones"
+      }
+    }
+  ]
+}
+</script>
 </head>
 
 <body style="display: flex; flex-direction: column; height: 100%; overflow: auto;">
@@ -355,7 +366,34 @@
                 </div>
                 <div class="d-flex contact-actions" role="toolbar">
                     <a class="btn" href="#contact" title="Contact (SGS)Supreme Granite & Stones" role="button">Contact Us</a>
-                    <a class="btn" href="#quote" title="Request a quote for our products" role="button">Get Quote</a>
+                    <!-- add a bootstrap drop down to download and view the catalog -->
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false" title="Download the SGS-Supreme Granite & Stones Catalog" role="button">
+                            Catalog
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item" href="img/Catalogue.pdf" download="SGS-Catalog.pdf" title="Download the SGS-Supreme Granite & Stones Catalog" role="menuitem">Download</a></li>
+                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#pdfModal" title="View the SGS-Supreme Granite & Stones Catalog" role="menuitem">View</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Modal Structure -->
+                    <div class="modal fade" id="pdfModal" tabindex="-1" aria-labelledby="pdfModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-xl modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="pdfModalLabel">SGS-Supreme Granite & Stones Catalog</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body" style="height: 80vh; overflow-y: auto;">
+                                    <!-- PDF Viewer Container -->
+                                    <div id="pdfViewerContainer" style="height: 100%; overflow-y: auto;">
+                                        <iframe id="pdfViewer" src="" width="100%" height="100%" style="border: none;"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -677,16 +715,21 @@
     </footer>
 
     <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="https://kit.fontawesome.com/aebadb062a.js" crossorigin="anonymous"></script>
+    <script async src="//www.instagram.com/embed.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
     <script>
-
-        // collapse the navbar when a link is clicked after opening the menu
-        document.querySelectorAll('.nav-link').forEach(link => {
-            link.addEventListener('click', () => {
-                document.querySelector('.navbar-collapse').classList.remove('show');
-            });
-        });
-
         document.addEventListener('DOMContentLoaded', () => {
+            // Collapse the navbar when a link is clicked after opening the menu
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.addEventListener('click', () => {
+                    document.querySelector('.navbar-collapse').classList.remove('show');
+                });
+            });
+
+            // Initialize sections with reveal effect
             const revealSection = (entries, observer) => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
@@ -703,10 +746,12 @@
 
             document.querySelectorAll('.reveal').forEach(section => sectionObserver.observe(section));
 
+            // Add hover effect for developer profile in the footer
             const profile = document.querySelector('.credits');
             profile.addEventListener('mouseenter', () => profile.classList.add('active'));
             profile.addEventListener('mouseleave', () => profile.classList.remove('active'));
 
+            // Handle active state for navbar links
             document.querySelectorAll('.nav-link').forEach(link => {
                 link.addEventListener('click', () => {
                     document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
@@ -714,6 +759,7 @@
                 });
             });
 
+            // Form validation
             const validateForm = () => {
                 const name = document.getElementById('name').value;
                 const email = document.getElementById('email').value;
@@ -727,11 +773,20 @@
             };
 
             document.querySelector('.contact-form').addEventListener('submit', validateForm);
+
+            // Load PDF into iframe when the modal is opened
+            const pdfModal = document.getElementById('pdfModal');
+            const pdfViewer = document.getElementById('pdfViewer');
+
+            pdfModal.addEventListener('show.bs.modal', function () {
+                pdfViewer.src = 'img/Catalogue.pdf'; // Path to your PDF file
+            });
+
+            pdfModal.addEventListener('hidden.bs.modal', function () {
+                pdfViewer.src = ''; // Clear the src when the modal is closed
+            });
         });
     </script>
-    <script src="https://kit.fontawesome.com/aebadb062a.js" crossorigin="anonymous"></script>
-    <script async src="//www.instagram.com/embed.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+
 </body>
 </html>
