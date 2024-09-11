@@ -779,7 +779,7 @@
             const pdfViewer = document.getElementById('pdfViewer');
 
             pdfModal.addEventListener('show.bs.modal', function () {
-                pdfViewer.src = 'img/Catalogue.pdf'; // Path to your PDF file
+                pdfViewer.src = 'https://sgsstyles.in/img/Catalogue.pdf'; // Path to your PDF file
             });
 
             pdfModal.addEventListener('hidden.bs.modal', function () {

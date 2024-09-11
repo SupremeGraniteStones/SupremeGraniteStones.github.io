@@ -642,6 +642,18 @@ footer {
     white-space: nowrap;
 }
 
+.modal-content {
+    border-radius: 8px; /* Rounded corners */
+    max-height: 90vh; /* Limit max height */
+    overflow: hidden; /* Prevent overflow */
+}
+
+/* Zoom Slider */
+#zoomSlider {
+    width: 150px;
+    margin-left: 10px;
+}
+
 @media screen and (max-width: 425px) {
     h1 { font-size: 20px; }
     h2 { font-size: 18px; }
@@ -964,6 +976,20 @@ footer {
         pointer-events: none;
         background-color: transparent;
         animation: bounce-rotate 2s infinite 4s ease-in-out;
+    }
+
+    .modal-dialog {
+        margin: 10px; /* Margin on smaller screens */
+        width: auto; /* Full width */
+    }
+
+    .modal-body {
+        padding: 0; /* No padding for PDF viewing */
+    }
+
+    #pdfViewer {
+        width: 100%; /* Full width on mobile */
+        height: auto; /* Auto height */
     }
 
 }
