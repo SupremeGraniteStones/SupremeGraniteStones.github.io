@@ -547,7 +547,7 @@
                     <div class="product-item">
                         <h3>JAISALMER YELLOW</h3>
                         <div class="product-inner">
-                            <img src="img/p2.webp" alt="JAISALMER YELLOW Granite" class="product-image rounded-circle" loading="lazy">
+                            <img src="img/p5.webp" alt="JAISALMER YELLOW Granite" class="product-image rounded-circle" loading="lazy">
                             <figcaption class="visually-hidden">Jaisalmer Yellow granite, ideal for interiors, available in polished, honed, and flamed finishes.</figcaption>
                         </div>
                         <h4 title="Product Id">#G-49-JYEP</h4>
@@ -556,7 +556,7 @@
                     <div class="product-item">
                         <h3>JET-BLACK</h3>
                         <div class="product-inner">
-                            <img src="img/p3.webp" alt="JET-BLACK Granite" class="product-image rounded-circle" loading="lazy">
+                            <img src="img/p4.webp" alt="JET-BLACK Granite" class="product-image rounded-circle" loading="lazy">
                             <figcaption class="visually-hidden">Jet-Black granite, ideal for contemporary interiors, available in polished, honed, and flamed finishes.</figcaption>
                         </div>
                         <h4 title="Product Id">#G-50-JBLP</h4>
@@ -565,7 +565,7 @@
                     <div class="product-item">
                         <h3>EMERALD PEARL</h3>
                         <div class="product-inner">
-                            <img src="img/p4.webp" alt="EMERALD PEARL Granite" class="product-image rounded-circle" loading="lazy">
+                            <img src="img/p3.webp" alt="EMERALD PEARL Granite" class="product-image rounded-circle" loading="lazy">
                             <figcaption class="visually-hidden">Emerald Pearl granite, ideal for kitchens and bathrooms, available in polished, honed, and flamed finishes.</figcaption>
                         </div>
                         <h4 title="Product Id">#G-51-EPEP</h4>
@@ -574,7 +574,7 @@
                     <div class="product-item">
                         <h3>BLUE PEARL</h3>
                         <div class="product-inner">
-                            <img src="img/p5.webp" alt="BLUE PEARL Granite" class="product-image rounded-circle" loading="lazy">
+                            <img src="img/p2.webp" alt="BLUE PEARL Granite" class="product-image rounded-circle" loading="lazy">
                             <figcaption class="visually-hidden">Blue Pearl granite, ideal for countertops and floors, available in polished, honed, and flamed finishes.</figcaption>
                         </div>
                         <h4 title="Product Id">#G-52-BPEP</h4>
@@ -779,7 +779,7 @@
             const pdfViewer = document.getElementById('pdfViewer');
 
             pdfModal.addEventListener('show.bs.modal', function () {
-                pdfViewer.src = 'https://sgsstyles.in/img/Catalogue.pdf'; // Path to your PDF file
+                pdfViewer.src = 'img/Catalogue.pdf'; // Path to your PDF file
             });
 
             pdfModal.addEventListener('hidden.bs.modal', function () {
