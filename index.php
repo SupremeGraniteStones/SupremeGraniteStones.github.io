@@ -201,15 +201,18 @@
         }
     </style>
 
-    <!-- Load Non-Critical CSS Asynchronously -->
+    <!-- Preconnect to Google Fonts -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" media="print" onload="this.media='all'">
     <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"></noscript>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" media="print" onload="this.media='all'">
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"></noscript>
 
+    <!-- Google Fonts -->
     <link rel="stylesheet" href="sgsstyles.css" media="print" onload="this.media='all'">
     <noscript><link rel="stylesheet" href="sgsstyles.css"></noscript>
+
 
     <!-- Structured Data -->
     <script type="application/ld+json">
@@ -691,9 +694,14 @@
                         </div>
                         
                         <!-- Embedded Google Map -->
-                        <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.7063848931934!2d77.6059118!3d12.797560899999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae114e2a9d7a5f%3A0xb2f1472554c3dd47!2sSUPREME%20GRANITE%20AND%20STONES!5e0!3m2!1sen!2sin!4v1723987903701!5m2!1sen!2sin" 
-                            width="450" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" aria-label="Google Maps location of SGS-Supreme Granite & Stones" title="Find our SGS location on Google Maps"></iframe>
-                        
+                        <iframe class="maps" 
+                            data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.7063848931934!2d77.6059118!3d12.797560899999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae114e2a9d7a5f%3A0xb2f1472554c3dd47!2sSUPREME%20GRANITE%20AND%20STONES!5e0!3m2!1sen!2sin!4v1723987903701!5m2!1sen!2sin"
+                            width="450" height="350" style="border:0;" 
+                            allowfullscreen="" loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade" 
+                            aria-label="Google Maps location of SGS-Supreme Granite & Stones" 
+                            title="Find our SGS location on Google Maps">
+                        </iframe>
                         <!-- Contact Form -->
                         <form class="contact-form" action="mail.php" method="POST" onsubmit="return validateForm()" aria-label="Contact form to send a message to SGS-Supreme Granite & Stones">
                             <h4><b>Send Us a Message</b></h4>
@@ -739,15 +747,82 @@
         </div>
     </footer>
 
-    <!-- JavaScript -->
+    <!-- Load Non-Critical JavaScript Asynchronously -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
-    <script src="https://kit.fontawesome.com/aebadb062a.js" crossorigin="anonymous"></script>
+    <script async src="https://kit.fontawesome.com/aebadb062a.js" crossorigin="anonymous"></script>
     <script async src="//www.instagram.com/embed.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+
+    <!-- Masonry (Lazy Load when needed) -->
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            // Collapse the navbar when a link is clicked after opening the menu
+            const loadMasonry = () => {
+                const script = document.createElement('script');
+                script.src = "https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js";
+                document.body.appendChild(script);
+            };
+
+            if (document.querySelector('.gallery-masonry')) {
+                loadMasonry();
+            }
+        });
+    </script>
+
+    <!-- PDF.js (Lazy Load when Modal is Opened) -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const pdfModal = document.getElementById('pdfModal');
+            const pdfViewer = document.getElementById('pdfViewer');
+
+            pdfModal.addEventListener('show.bs.modal', function () {
+                const script = document.createElement('script');
+                script.src = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js";
+                document.body.appendChild(script);
+
+                script.onload = () => {
+                    pdfViewer.src = 'img/Catalogue.pdf'; // Path to your PDF file
+                };
+            });
+
+            pdfModal.addEventListener('hidden.bs.modal', function () {
+                pdfViewer.src = '';
+            });
+        });
+    </script>
+
+    <!-- Google Maps API and Iframe (Lazy Load) -->
+    <script>
+        function loadGoogleMapsScript(callback) {
+            const script = document.createElement('script');
+            script.src = 'https://maps.googleapis.com/maps-api-v3/api/js/58/4a/common.js';
+            script.onload = callback;
+            document.head.appendChild(script);
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const mapsIframe = document.querySelector('.maps');
+
+            const loadMap = (entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        mapsIframe.src = mapsIframe.getAttribute('data-src');
+                        observer.unobserve(mapsIframe);
+                    }
+                });
+            };
+
+            const mapObserver = new IntersectionObserver(loadMap, {
+                root: null,
+                threshold: 0.1
+            });
+
+            mapObserver.observe(mapsIframe);
+        });
+    </script>
+
+    <!-- Custom Script for Navbar and Section Reveal -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Collapse the navbar when a link is clicked
             document.querySelectorAll('.nav-link').forEach(link => {
                 link.addEventListener('click', () => {
                     document.querySelector('.navbar-collapse').classList.remove('show');
@@ -785,31 +860,20 @@
             });
 
             // Form validation
-            const validateForm = () => {
+            const validateForm = (event) => {
                 const name = document.getElementById('name').value;
                 const email = document.getElementById('email').value;
                 const message = document.getElementById('message').value;
 
                 if (!name || !email || !message) {
                     alert("All fields must be filled out");
+                    event.preventDefault(); // Prevent form submission
                     return false;
                 }
                 return true;
             };
 
             document.querySelector('.contact-form').addEventListener('submit', validateForm);
-
-            // Load PDF into iframe when the modal is opened
-            const pdfModal = document.getElementById('pdfModal');
-            const pdfViewer = document.getElementById('pdfViewer');
-
-            pdfModal.addEventListener('show.bs.modal', function () {
-                pdfViewer.src = 'img/Catalogue.pdf'; // Path to your PDF file
-            });
-
-            pdfModal.addEventListener('hidden.bs.modal', function () {
-                pdfViewer.src = ''; // Clear the src when the modal is closed
-            });
         });
     </script>
 
