@@ -213,147 +213,147 @@
 
     <!-- Structured Data -->
     <script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Organization",
-  "name": "SGS-Supreme Granite & Stones",
-  "url": "https://www.sgsstyles.in",
-  "logo": "https://www.sgsstyles.in/img/LOGO.webp",
-  "contactPoint": [
     {
-      "@type": "ContactPoint",
-      "telephone": "+91-9066-804666",
-      "contactType": "Customer service",
-      "contactOption": "TollFree",
-      "areaServed": "IN",
-      "availableLanguage": ["English", "Hindi", "Kannada"]
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name": "SGS-Supreme Granite & Stones",
+    "url": "https://www.sgsstyles.in",
+    "logo": "https://www.sgsstyles.in/img/LOGO.webp",
+    "contactPoint": [
+        {
+        "@type": "ContactPoint",
+        "telephone": "+91-9066-804666",
+        "contactType": "Customer service",
+        "contactOption": "TollFree",
+        "areaServed": "IN",
+        "availableLanguage": ["English", "Hindi", "Kannada"]
+        },
+        {
+        "@type": "ContactPoint",
+        "telephone": "+91-9066-804666",
+        "contactType": "Sales",
+        "contactOption": "TollFree",
+        "areaServed": "IN",
+        "availableLanguage": ["English", "Hindi", "Kannada"]
+        },
+        {
+        "@type": "ContactPoint",
+        "telephone": "+91-9066-804666",
+        "contactType": "Support",
+        "contactOption": "TollFree",
+        "areaServed": "IN",
+        "availableLanguage": ["English", "Hindi", "Kannada"]
+        },
+        {
+        "@type": "ContactPoint",
+        "telephone": "+91-9066-804666",
+        "contactType": "Quotation",
+        "contactOption": "TollFree",
+        "areaServed": "IN",
+        "availableLanguage": ["English", "Hindi", "Kannada"]
+        }
+    ],
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "15 16-1A, 21st Mile Stone, Malle Nalsandra, Jigani, Nallasandra",
+        "addressLocality": "Bangalore",
+        "addressRegion": "Karnataka",
+        "postalCode": "560083",
+        "addressCountry": "IN"
     },
-    {
-      "@type": "ContactPoint",
-      "telephone": "+91-9066-804666",
-      "contactType": "Sales",
-      "contactOption": "TollFree",
-      "areaServed": "IN",
-      "availableLanguage": ["English", "Hindi", "Kannada"]
+    "sameAs": [
+        "https://g.page/supreme-granite-and-stones",
+        "https://instagram.com/sgs.styles"
+    ],
+    "openingHours": "Mo,Tu,We,Th,Fr,Sa 09:00-18:00",
+    "potentialAction": {
+        "@type": "ContactAction",
+        "target": "https://www.sgsstyles.in/#contact",
+        "query-input": "required"
     },
-    {
-      "@type": "ContactPoint",
-      "telephone": "+91-9066-804666",
-      "contactType": "Support",
-      "contactOption": "TollFree",
-      "areaServed": "IN",
-      "availableLanguage": ["English", "Hindi", "Kannada"]
-    },
-    {
-      "@type": "ContactPoint",
-      "telephone": "+91-9066-804666",
-      "contactType": "Quotation",
-      "contactOption": "TollFree",
-      "areaServed": "IN",
-      "availableLanguage": ["English", "Hindi", "Kannada"]
+    "product": [
+        {
+        "@type": "Product",
+        "name": "LAKA RED Granite",
+        "image": "https://www.sgsstyles.in/img/p1.webp",
+        "description": "Vibrant Laka Red granite, perfect for countertops and accent walls, available in polished, honed, and flamed finishes.",
+        "sku": "G-48-LREP",
+        "brand": {
+            "@type": "Brand",
+            "name": "SGS-Supreme Granite & Stones"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "1650"
+        }
+        },
+        {
+        "@type": "Product",
+        "name": "JAISALMER YELLOW Granite",
+        "image": "https://www.sgsstyles.in/img/p2.webp",
+        "description": "Warm and luxurious Jaisalmer Yellow granite, ideal for interiors, available in polished, honed, and flamed finishes.",
+        "sku": "G-49-JYEP",
+        "brand": {
+            "@type": "Brand",
+            "name": "SGS-Supreme Granite & Stones"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "1460"
+        }
+        },
+        {
+        "@type": "Product",
+        "name": "JET-BLACK Granite",
+        "image": "https://www.sgsstyles.in/img/p3.webp",
+        "description": "Sleek Jet-Black granite, perfect for contemporary interiors, available in polished, honed, and flamed finishes.",
+        "sku": "G-50-JBLP",
+        "brand": {
+            "@type": "Brand",
+            "name": "SGS-Supreme Granite & Stones"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "1550"
+        }
+        },
+        {
+        "@type": "Product",
+        "name": "EMERALD PEARL Granite",
+        "image": "https://www.sgsstyles.in/img/p4.webp",
+        "description": "Unique, shimmering Emerald Pearl granite, ideal for kitchens and bathrooms, available in polished, honed, and flamed finishes.",
+        "sku": "G-51-EPEP",
+        "brand": {
+            "@type": "Brand",
+            "name": "SGS-Supreme Granite & Stones"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "1350"
+        }
+        },
+        {
+        "@type": "Product",
+        "name": "BLUE PEARL Granite",
+        "image": "https://www.sgsstyles.in/img/p5.webp",
+        "description": "Stunning Blue Pearl granite, ideal for countertops and floors, available in polished, honed, and flamed finishes.",
+        "sku": "G-52-BPEP",
+        "brand": {
+            "@type": "Brand",
+            "name": "SGS-Supreme Granite & Stones"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "1260"
+        }
+        }
+    ]
     }
-  ],
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "15 16-1A, 21st Mile Stone, Malle Nalsandra, Jigani, Nallasandra",
-    "addressLocality": "Bangalore",
-    "addressRegion": "Karnataka",
-    "postalCode": "560083",
-    "addressCountry": "IN"
-  },
-  "sameAs": [
-    "https://g.page/supreme-granite-and-stones",
-    "https://instagram.com/sgs.styles"
-  ],
-  "openingHours": "Mo,Tu,We,Th,Fr,Sa 09:00-18:00",
-  "potentialAction": {
-    "@type": "ContactAction",
-    "target": "https://www.sgsstyles.in/#contact",
-    "query-input": "required"
-  },
-  "product": [
-    {
-      "@type": "Product",
-      "name": "LAKA RED Granite",
-      "image": "https://www.sgsstyles.in/img/p1.webp",
-      "description": "Vibrant Laka Red granite, perfect for countertops and accent walls, available in polished, honed, and flamed finishes.",
-      "sku": "G-48-LREP",
-      "brand": {
-        "@type": "Brand",
-        "name": "SGS-Supreme Granite & Stones"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "1650"
-      }
-    },
-    {
-      "@type": "Product",
-      "name": "JAISALMER YELLOW Granite",
-      "image": "https://www.sgsstyles.in/img/p2.webp",
-      "description": "Warm and luxurious Jaisalmer Yellow granite, ideal for interiors, available in polished, honed, and flamed finishes.",
-      "sku": "G-49-JYEP",
-      "brand": {
-        "@type": "Brand",
-        "name": "SGS-Supreme Granite & Stones"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "1460"
-      }
-    },
-    {
-      "@type": "Product",
-      "name": "JET-BLACK Granite",
-      "image": "https://www.sgsstyles.in/img/p3.webp",
-      "description": "Sleek Jet-Black granite, perfect for contemporary interiors, available in polished, honed, and flamed finishes.",
-      "sku": "G-50-JBLP",
-      "brand": {
-        "@type": "Brand",
-        "name": "SGS-Supreme Granite & Stones"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "1550"
-      }
-    },
-    {
-      "@type": "Product",
-      "name": "EMERALD PEARL Granite",
-      "image": "https://www.sgsstyles.in/img/p4.webp",
-      "description": "Unique, shimmering Emerald Pearl granite, ideal for kitchens and bathrooms, available in polished, honed, and flamed finishes.",
-      "sku": "G-51-EPEP",
-      "brand": {
-        "@type": "Brand",
-        "name": "SGS-Supreme Granite & Stones"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "1350"
-      }
-    },
-    {
-      "@type": "Product",
-      "name": "BLUE PEARL Granite",
-      "image": "https://www.sgsstyles.in/img/p5.webp",
-      "description": "Stunning Blue Pearl granite, ideal for countertops and floors, available in polished, honed, and flamed finishes.",
-      "sku": "G-52-BPEP",
-      "brand": {
-        "@type": "Brand",
-        "name": "SGS-Supreme Granite & Stones"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "1260"
-      }
-    }
-  ]
-}
 </script>
 </head>
 
@@ -403,7 +403,7 @@
                     </div>
 
                     <!-- Modal Structure -->
-                    <div class="modal fade" id="pdfModal" tabindex="-1" aria-labelledby="pdfModalLabel" aria-hidden="true">
+                    <div class="modal fade" id="pdfModal" tabindex="-1" aria-labelledby="pdfModalLabel" aria-hidden="true" role="dialog">
                         <div class="modal-dialog modal-xl modal-dialog-centered">
                             <div class="modal-content">
                                 <div class="modal-header">
