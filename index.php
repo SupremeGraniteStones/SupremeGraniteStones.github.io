@@ -375,16 +375,16 @@
                 </button>
                 <div class="collapse navbar-collapse tabs" id="navbarSupportedContent">
                     <ul class="navbar-nav mb-2 mb-lg-0 nav-links" role="menubar">
-                        <li class="nav-item">
+                        <li class="nav-item" role="none">
                             <a class="nav-link active" href="#home" title="Go to the SGS Home Page" role="menuitem">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" role="none">
                             <a class="nav-link" href="#about-us" title="Learn more about SGS-Supreme Granite & Stones" role="menuitem">About Us</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" role="none">
                             <a class="nav-link" href="#products" title="Browse our granite and stone products" role="menuitem">Products</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" role="none">
                             <a class="nav-link" href="#gallery" title="View our Granite and Stone gallery" role="menuitem">Gallery</a>
                         </li>
                     </ul>
