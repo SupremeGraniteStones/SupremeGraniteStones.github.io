@@ -281,6 +281,11 @@
       "brand": {
         "@type": "Brand",
         "name": "SGS-Supreme Granite & Stones"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "1650"
       }
     },
     {
@@ -292,6 +297,11 @@
       "brand": {
         "@type": "Brand",
         "name": "SGS-Supreme Granite & Stones"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "1460"
       }
     },
     {
@@ -303,6 +313,11 @@
       "brand": {
         "@type": "Brand",
         "name": "SGS-Supreme Granite & Stones"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "1550"
       }
     },
     {
@@ -314,6 +329,11 @@
       "brand": {
         "@type": "Brand",
         "name": "SGS-Supreme Granite & Stones"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "1350"
       }
     },
     {
@@ -325,6 +345,11 @@
       "brand": {
         "@type": "Brand",
         "name": "SGS-Supreme Granite & Stones"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "1260"
       }
     }
   ]
