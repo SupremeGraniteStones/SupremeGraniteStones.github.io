@@ -63,4 +63,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
+
+    <!-- Catalogue -->
+    <url>
+        <loc>https://www.sgsstyles.in/img/Catalogue.pdf</loc>
+        <lastmod>2024-09-14</lastmod>
+        <changefreq>monthly</changefreq>
+    </url>
+
 </urlset>
