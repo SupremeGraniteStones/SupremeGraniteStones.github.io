@@ -69,6 +69,45 @@
         <loc>https://www.sgsstyles.in/img/Catalogue.pdf</loc>
         <lastmod>2024-09-14</lastmod>
         <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- Individual Images for Better Indexing -->
+    <url>
+        <loc>https://www.sgsstyles.in/img/p1.webp</loc>
+        <lastmod>2024-09-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.sgsstyles.in/img/p2.webp</loc>
+        <lastmod>2024-09-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.sgsstyles.in/img/p3.webp</loc>
+        <lastmod>2024-09-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.sgsstyles.in/img/p4.webp</loc>
+        <lastmod>2024-09-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.sgsstyles.in/img/p5.webp</loc>
+        <lastmod>2024-09-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.sgsstyles.in/img/LOGO.webp</loc>
+        <lastmod>2024-08-30</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
     </url>
 
 </urlset>
